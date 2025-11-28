@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://chironapp.github.io',
-  base: '/chiron-website',
+  base: '/chiron-website/',
   integrations: [tailwind(), sitemap()],
   output: 'static',
 });

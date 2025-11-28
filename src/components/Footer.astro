@@ -1,4 +1,5 @@
 ---
+const base = import.meta.env.BASE_URL;
 const currentYear = new Date().getFullYear();
 
 const socialLinks = [
@@ -7,10 +8,10 @@ const socialLinks = [
 ];
 
 const footerLinks = [
-  { href: '/about/', label: 'About' },
-  { href: '/blog/', label: 'Blog' },
-  { href: '/training/', label: 'Training' },
-  { href: '/contact/', label: 'Contact' },
+  { href: `${base}about/`, label: 'About' },
+  { href: `${base}blog/`, label: 'Blog' },
+  { href: `${base}training/`, label: 'Training' },
+  { href: `${base}contact/`, label: 'Contact' },
 ];
 ---
 

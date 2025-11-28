@@ -1,0 +1,45 @@
+---
+export interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { 
+  title = 'Subscribe to our newsletter',
+  description = 'Get the latest training tips, blog posts, and updates delivered to your inbox.'
+} = Astro.props;
+---
+
+<div class="bg-indigo-50 rounded-lg p-6 md:p-8">
+  <h3 class="text-xl font-bold text-gray-900 mb-2">{title}</h3>
+  <p class="text-gray-600 mb-4">{description}</p>
+  
+  <!-- Mailchimp signup form placeholder -->
+  <form
+    action="https://chironapp.us.list-manage.com/subscribe/post"
+    method="POST"
+    class="flex flex-col sm:flex-row gap-3"
+    id="newsletter-form"
+  >
+    <!-- Replace with your Mailchimp form action URL and hidden fields -->
+    <input type="hidden" name="u" value="YOUR_MAILCHIMP_U_VALUE" />
+    <input type="hidden" name="id" value="YOUR_MAILCHIMP_ID_VALUE" />
+    
+    <input
+      type="email"
+      name="EMAIL"
+      placeholder="Enter your email"
+      required
+      class="flex-1 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none"
+    />
+    <button
+      type="submit"
+      class="px-6 py-2 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 transition-colors focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+    >
+      Subscribe
+    </button>
+  </form>
+  <p class="text-xs text-gray-500 mt-3">
+    We respect your privacy. Unsubscribe at any time.
+  </p>
+</div>

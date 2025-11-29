@@ -6,6 +6,7 @@ const navLinks = [
   { href: `${base}about/`, label: 'About' },
   { href: `${base}blog/`, label: 'Blog' },
   { href: `${base}training/`, label: 'Training' },
+  { href: 'https://calculator.chironapp.com/', label: 'Running Calculator', external: true },
   { href: `${base}contact/`, label: 'Contact' },
 ];
 
@@ -22,11 +23,13 @@ const currentPath = Astro.url.pathname;
         <div class="ml-10 flex items-baseline space-x-4">
           {navLinks.map((link) => {
             const isHome = link.href === base;
-            const isActive = currentPath === link.href || (!isHome && currentPath.startsWith(link.href));
+            const isActive = !link.external && (currentPath === link.href || (!isHome && currentPath.startsWith(link.href)));
             
             return (
               <a
                 href={link.href}
+                target={link.external ? '_blank' : undefined}
+                rel={link.external ? 'noopener noreferrer' : undefined}
                 class:list={[
                   'px-3 py-2 rounded-md text-sm font-medium transition-colors',
                   isActive
@@ -58,11 +61,13 @@ const currentPath = Astro.url.pathname;
       <div class="flex flex-col space-y-2">
         {navLinks.map((link) => {
           const isHome = link.href === base;
-          const isActive = currentPath === link.href || (!isHome && currentPath.startsWith(link.href));
+          const isActive = !link.external && (currentPath === link.href || (!isHome && currentPath.startsWith(link.href)));
           
           return (
             <a
               href={link.href}
+              target={link.external ? '_blank' : undefined}
+              rel={link.external ? 'noopener noreferrer' : undefined}
               class:list={[
                 'px-3 py-2 rounded-md text-base font-medium',
                 isActive

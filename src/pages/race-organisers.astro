@@ -1,0 +1,125 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout
+  title="Race Organisers - Chiron"
+  description="Stress-free race timing and results for clubs and race organisers. From start lists to live results, Chiron handles manual and RFID chip timing for all event types."
+>
+  <section class="py-20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-8 text-center">
+        Race Day, Reimagined
+      </h1>
+      
+      <p class="text-xl text-gray-600 mb-12 text-center">
+        Stress-free race timing and results for clubs and race organisers. Focus on your event while Chiron handles the timing.
+      </p>
+
+      <!-- Event Services -->
+      <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6">Event Services</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="flex items-start">
+            <svg class="w-6 h-6 text-primary-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+            </svg>
+            <div>
+              <h3 class="font-semibold text-gray-900">Start Lists</h3>
+              <p class="text-gray-600">Easy management of entries, seeding, and start lists. Import from spreadsheets or manage directly in Chiron.</p>
+            </div>
+          </div>
+          <div class="flex items-start">
+            <svg class="w-6 h-6 text-primary-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <div>
+              <h3 class="font-semibold text-gray-900">Manual Timing</h3>
+              <p class="text-gray-600">Simple, reliable manual timing with backup options. Perfect for club events and smaller races.</p>
+            </div>
+          </div>
+          <div class="flex items-start">
+            <svg class="w-6 h-6 text-primary-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+            </svg>
+            <div>
+              <h3 class="font-semibold text-gray-900">RFID Chip Timing</h3>
+              <p class="text-gray-600">Professional-grade RFID chip timing for accurate, high-volume results. Split times and live tracking included.</p>
+            </div>
+          </div>
+          <div class="flex items-start">
+            <svg class="w-6 h-6 text-primary-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+            </svg>
+            <div>
+              <h3 class="font-semibold text-gray-900">Race Results</h3>
+              <p class="text-gray-600">Live results publication with automatic rankings, age group categories, and shareable result links.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Supported Event Types -->
+      <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6">Supported Event Types</h2>
+        <p class="text-gray-600 mb-6">
+          Chiron supports all kinds of race events, from simple club runs to complex multi-day competitions.
+        </p>
+        <ul class="space-y-4 text-gray-600">
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-primary-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <span><strong>Individual Events:</strong> Road races, trail runs, track events, and cross country races.</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-primary-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <span><strong>Team Events:</strong> Team scoring with automatic calculations for club competitions.</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-primary-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <span><strong>Relays:</strong> Ekiden-style relays, traditional relays, and ultra-relays with leg tracking.</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-primary-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <span><strong>Race Series:</strong> Points-based series with cumulative standings and category awards.</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-primary-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <span><strong>Handicapped Racing:</strong> Staggered starts based on predicted times with real-time position tracking.</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-primary-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <span><strong>Australian Gift Racing:</strong> Traditional gift format with back-marks and professional timing integration.</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- CTA Section -->
+      <div class="bg-primary-50 rounded-lg p-8 text-center">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Ready to simplify your race day?</h2>
+        <p class="text-gray-600 mb-6">
+          Get in touch to discuss how Chiron can help with your next event.
+        </p>
+        <a
+          href={`${base}contact/`}
+          class="inline-block px-8 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors"
+        >
+          Contact Us
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

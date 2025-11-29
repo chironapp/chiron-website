@@ -12,13 +12,19 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+
+// Handle co-located images
+let imageUrl = entry.data.image;
+if (typeof entry.data.image === 'object' && entry.data.image?.src) {
+  imageUrl = entry.data.image.src;
+}
 ---
 
 <BlogLayout
   title={entry.data.title}
   description={entry.data.description}
   pubDate={entry.data.pubDate}
-  image={entry.data.image}
+  image={imageUrl}
   tags={entry.data.tags}
 >
   <Content />

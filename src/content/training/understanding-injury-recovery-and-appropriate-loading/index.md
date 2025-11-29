@@ -1,7 +1,7 @@
 ---
 title: "Understanding injury recovery and appropriate loading"
 pubDate: "2025-08-13"
-tags: ["training-articles"]
+tags: ["training-load"]
 description: "Tim Gabbett recently wrote a great article on the lessons strength and conditioning coaches can learn from rehab professionals - particularly the reminder that you can't cheat biological healing time."
 image: "./IMG_0095.jpg"
 ---

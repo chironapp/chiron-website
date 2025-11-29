@@ -20,7 +20,7 @@ const formattedDate = pubDate.toLocaleDateString('en-US', {
 
 <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
   {image && (
-    <a href={`${base}blog/${slug}/`}>
+    <a href={`${base}${slug}/`}>
       <img
         src={image}
         alt={title}
@@ -40,7 +40,7 @@ const formattedDate = pubDate.toLocaleDateString('en-US', {
       </div>
     )}
     <h3 class="text-xl font-bold text-gray-900 mb-2">
-      <a href={`${base}blog/${slug}/`} class="hover:text-primary-600 transition-colors">
+      <a href={`${base}${slug}/`} class="hover:text-primary-600 transition-colors">
         {title}
       </a>
     </h3>

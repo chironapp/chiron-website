@@ -1,17 +1,16 @@
 ---
 title: "Road to Osaka week 15"
 pubDate: "2025-02-09"
-tags: ["chiron-features", "training-stories", "features", "marathon", "osakamarathon", "training"]
+tags: ["training-stories", "features", "marathon", "osakamarathon", "training"]
 description: "Three weeks to go until **Osaka Marathon 2025**, and this week was a battle."
 image: "./Road-to-Osaka-2025-cover.png"
 ---
-
 
 Three weeks to go until **Osaka Marathon 2025**, and this week was a battle.
 
 🎥 **Catch the full Week 15 recap on [my latest](https://www.instagram.com/reel/DFFK4r6x-HD4zNJJeDljQ_HtA-x720suoqOO040/) [reel](https://www.instagram.com/p/DFzT2iYxbqdgHAyC9Il73sfxc6DuJgHQebbnck0/)!**
 
-* * *
+---
 
 ![](./Road-to-Osaka-week-15-cover-576x1024.jpg)
 
@@ -25,7 +24,7 @@ The big effort this week was **Sunday’s [Moreton Bay Road Runners](https://www
 
 Total mileage this week: 114km. The hardest training is behind me. Now it’s time to **sharpen up and freshen up** for race day.
 
-* * *
+---
 
 Check out the reel for all the details, and don’t forget to sign up for updates on Chiron at **[www.chironapp.com](/contact/)**.
 

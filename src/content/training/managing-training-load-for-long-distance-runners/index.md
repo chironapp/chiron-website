@@ -3,7 +3,6 @@ title: "Managing training load for long distance runners"
 pubDate: "2025-01-08"
 tags:
   [
-    "training-articles",
     "fatigue",
     "fitness",
     "govss",

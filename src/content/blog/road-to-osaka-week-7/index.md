@@ -1,11 +1,10 @@
 ---
 title: "Road to Osaka week 7"
 pubDate: "2024-12-11"
-tags: ["chiron-features", "training-stories", "features", "marathon", "osakamarathon", "training"]
+tags: ["training-stories", "features", "marathon", "osakamarathon", "training"]
 description: "**Chiron merge/unmerge workouts feature, relays, recovery, and progress**"
 image: "./Road-to-Osaka-2025-cover.png"
 ---
-
 
 ![](./road-to-osaka-week-7-cover-576x1024.jpg)
 

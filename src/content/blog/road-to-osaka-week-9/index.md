@@ -1,11 +1,10 @@
 ---
 title: "Road to Osaka week 9"
 pubDate: "2024-12-24"
-tags: ["chiron-features", "training-stories", "features", "marathon", "osakamarathon", "training"]
+tags: ["training-stories", "features", "marathon", "osakamarathon", "training"]
 description: "**Chiron bug fixes, marathon workouts, and summer heat**"
 image: "./Road-to-Osaka-2025-cover.png"
 ---
-
 
 **Chiron bug fixes, marathon workouts, and summer heat**
 

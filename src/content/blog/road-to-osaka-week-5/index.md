@@ -1,11 +1,10 @@
 ---
 title: "Road to Osaka week 5"
 pubDate: "2024-11-27"
-tags: ["chiron-features", "training-stories", "features", "marathon", "osakamarathon", "training"]
+tags: ["training-stories", "features", "marathon", "osakamarathon", "training"]
 description: "**Chiron Events feature and overtraining injury scare**"
 image: "./Road-to-Osaka-2025-cover.png"
 ---
-
 
 ![](./road-to-osaka-week-5-576x1024.jpg)
 

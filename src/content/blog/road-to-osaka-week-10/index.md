@@ -1,11 +1,10 @@
 ---
 title: "Road to Osaka week 10"
 pubDate: "2025-01-02"
-tags: ["chiron-features", "training-stories", "features", "marathon", "osakamarathon", "training"]
+tags: ["training-stories", "features", "marathon", "osakamarathon", "training"]
 description: "**Big miles, Christmas balance, and Chiron planning sessions**"
 image: "./Road-to-Osaka-2025-cover.png"
 ---
-
 
 **Big miles, Christmas balance, and Chiron planning sessions**
 

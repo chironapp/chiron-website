@@ -1,7 +1,7 @@
 ---
 title: "Open Source is Endurance Too: Introducing chironpy"
 pubDate: "2025-05-23"
-tags: ["chironpy", "chironpy", "training-load"]
+tags: ["chironpy", "training-load", "updates", "tools"]
 description: "It’s been a while since we shared an update—but we’re excited to finally introduce something we’ve been building quietly in the background."
 image: "./image.png"
 ---
@@ -40,4 +40,4 @@ Open source is endurance too. Thanks for sticking with us.
 
 — Clive and the Chiron team
 
-* * *
+---

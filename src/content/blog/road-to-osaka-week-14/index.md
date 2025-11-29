@@ -1,11 +1,10 @@
 ---
 title: "Road to Osaka week 14"
 pubDate: "2025-01-30"
-tags: ["chiron-features", "training-stories", "features", "marathon", "osakamarathon", "training"]
+tags: ["training-stories", "features", "marathon", "osakamarathon", "training"]
 description: "Peak mileage"
 image: "./Road-to-Osaka-2025-cover.png"
 ---
-
 
 Peak mileage
 
@@ -17,13 +16,13 @@ The peak is now done—time to start the taper.
 
 🎥 **Catch the full week 14 recap on [my latest reel](https://www.instagram.com/p/DFZz8nYxeqp7nnThCIZw1mEurSB9KHYTkS-7bY0/)!**
 
-* * *
+---
 
 ![](./Road-to-Osaka-Week-14-cover-576x1024.jpg)
 
 ![](./Road-to-Osaka-Week-14-highlight-576x1024.jpg)
 
-* * *
+---
 
 _Week 14 of 18. Osaka Marathon 24 February 2025._
 

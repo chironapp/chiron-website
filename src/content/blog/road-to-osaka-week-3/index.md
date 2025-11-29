@@ -1,11 +1,10 @@
 ---
 title: "Road to Osaka week 3"
 pubDate: "2024-11-13"
-tags: ["chiron-features", "training-stories", "features", "marathon", "osakamarathon", "training"]
+tags: ["training-stories", "features", "marathon", "osakamarathon", "training"]
 description: "**Chiron Workout Library feature and hilly long run in the SunShine Coast hinterland**"
 image: "./Road-to-Osaka-2025-cover.png"
 ---
-
 
 ![](./road-to-osaka-week-3-576x1024.jpg)
 

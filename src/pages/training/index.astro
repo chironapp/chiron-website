@@ -8,8 +8,20 @@ const sortedArticles = allArticles.sort(
   (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
 );
 
+// Process articles to handle co-located images
+const processedArticles = sortedArticles.map(article => {
+  let imageUrl = article.data.image;
+  if (typeof article.data.image === 'object' && article.data.image?.src) {
+    imageUrl = article.data.image.src;
+  }
+  return {
+    ...article,
+    processedImage: imageUrl
+  };
+});
+
 // Get unique tags for filtering
-const allTags = [...new Set(sortedArticles.flatMap((article) => article.data.tags || []))];
+const allTags = [...new Set(processedArticles.flatMap((article) => article.data.tags || []))];
 ---
 
 <BaseLayout
@@ -44,16 +56,16 @@ const allTags = [...new Set(sortedArticles.flatMap((article) => article.data.tag
         </div>
       )}
 
-      {sortedArticles.length > 0 ? (
+      {processedArticles.length > 0 ? (
         <div id="articles-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {sortedArticles.map((article) => (
+          {processedArticles.map((article) => (
             <div class="article-card" data-tags={JSON.stringify(article.data.tags || [])}>
               <TrainingArticleCard
                 title={article.data.title}
                 description={article.data.description}
                 pubDate={article.data.pubDate}
                 slug={article.slug}
-                image={article.data.image}
+                image={article.processedImage}
                 tags={article.data.tags}
               />
             </div>

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import NewsletterSignup from '../components/NewsletterSignup.astro';
+import MailchimpSignup from '../components/MailchimpSignup.astro';
 ---
 
 <BaseLayout
@@ -17,8 +18,9 @@ import NewsletterSignup from '../components/NewsletterSignup.astro';
         Stay informed about the Chiron app release and receive tips, resources and stories to help you with your running journey.
       </p>
 
-      <div class="max-w-xl mx-auto mb-12">
-        <NewsletterSignup />
+      <!-- Mailchimp Signup -->
+      <div class="mb-12">
+        <MailchimpSignup />
       </div>
 
       <!-- Placeholder image -->

@@ -20,19 +20,24 @@ const currentPath = Astro.url.pathname;
       </div>
       <div class="hidden md:block">
         <div class="ml-10 flex items-baseline space-x-4">
-          {navLinks.map((link) => (
-            <a
-              href={link.href}
-              class:list={[
-                'px-3 py-2 rounded-md text-sm font-medium transition-colors',
-                currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href))
-                  ? 'bg-primary-100 text-primary-700'
-                  : 'text-gray-700 hover:bg-gray-100 hover:text-gray-900',
-              ]}
-            >
-              {link.label}
-            </a>
-          ))}
+          {navLinks.map((link) => {
+            const isHome = link.href === base;
+            const isActive = currentPath === link.href || (!isHome && currentPath.startsWith(link.href));
+            
+            return (
+              <a
+                href={link.href}
+                class:list={[
+                  'px-3 py-2 rounded-md text-sm font-medium transition-colors',
+                  isActive
+                    ? 'bg-primary-100 text-primary-700'
+                    : 'text-gray-700 hover:bg-gray-100 hover:text-gray-900',
+                ]}
+              >
+                {link.label}
+              </a>
+            );
+          })}
         </div>
       </div>
       <div class="md:hidden">
@@ -51,19 +56,24 @@ const currentPath = Astro.url.pathname;
     </div>
     <div id="mobile-menu" class="hidden md:hidden pb-4">
       <div class="flex flex-col space-y-2">
-        {navLinks.map((link) => (
-          <a
-            href={link.href}
-            class:list={[
-              'px-3 py-2 rounded-md text-base font-medium',
-              currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href))
-                ? 'bg-primary-100 text-primary-700'
-                : 'text-gray-700 hover:bg-gray-100 hover:text-gray-900',
-            ]}
-          >
-            {link.label}
-          </a>
-        ))}
+        {navLinks.map((link) => {
+          const isHome = link.href === base;
+          const isActive = currentPath === link.href || (!isHome && currentPath.startsWith(link.href));
+          
+          return (
+            <a
+              href={link.href}
+              class:list={[
+                'px-3 py-2 rounded-md text-base font-medium',
+                isActive
+                  ? 'bg-primary-100 text-primary-700'
+                  : 'text-gray-700 hover:bg-gray-100 hover:text-gray-900',
+              ]}
+            >
+              {link.label}
+            </a>
+          );
+        })}
       </div>
     </div>
   </nav>

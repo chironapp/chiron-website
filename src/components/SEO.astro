@@ -4,32 +4,56 @@ export interface Props {
   description: string;
   image?: string;
   canonicalUrl?: string;
+  keywords?: string;
+  author?: string;
+  themeColor?: string;
 }
 
-const { title, description, image, canonicalUrl } = Astro.props;
+const { 
+  title, 
+  description, 
+  image, 
+  canonicalUrl,
+  keywords = "race timing, endurance training, running, athletics, coaching, performance tracking",
+  author = "Typhon Solutions",
+  themeColor = "#6A1B9A"
+} = Astro.props;
+
 const siteUrl = Astro.site?.toString() || '';
-const fullImageUrl = image ? new URL(image, siteUrl).toString() : undefined;
+const base = import.meta.env.BASE_URL;
+const defaultOgImage = `${base}images/og-image-bg.png`;
+const fullImageUrl = image ? new URL(image, siteUrl).toString() : new URL(defaultOgImage, siteUrl).toString();
 const canonical = canonicalUrl || Astro.url.toString();
+const siteName = "Chiron";
 ---
 
 <!-- Primary Meta Tags -->
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
+<meta name="keywords" content={keywords} />
+<meta name="author" content={author} />
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonical} />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
+<meta property="og:site_name" content={siteName} />
 <meta property="og:url" content={canonical} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-{fullImageUrl && <meta property="og:image" content={fullImageUrl} />}
+<meta property="og:locale" content="en_US" />
+<meta property="og:image" content={fullImageUrl} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/png" />
 
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={canonical} />
-<meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
-{fullImageUrl && <meta property="twitter:image" content={fullImageUrl} />}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={fullImageUrl} />
+
+<!-- Theme -->
+<meta name="theme-color" content={themeColor} />

@@ -1,17 +1,28 @@
 ---
 title: "Managing training load for long distance runners"
 pubDate: "2025-01-08"
-tags: ["training-articles", "fatigue", "fitness", "govss", "skiba", "srpe", "supercompensation", "training-load", "trimp", "tss"]
+tags:
+  [
+    "training-articles",
+    "fatigue",
+    "fitness",
+    "govss",
+    "skiba",
+    "srpe",
+    "supercompensation",
+    "training-load",
+    "trimp",
+    "tss",
+  ]
 description: "> _“Fitness improves sustainably when loading is balanced with adequate recovery.”_"
 image: "./man-running-uphill-jeremy-lapak-unsplash-2-scaled.jpg"
 ---
-
 
 > _“Fitness improves sustainably when loading is balanced with adequate recovery.”_
 
 <figure>
 
-![On Running SquadRace Relay Gold Coast 5km relay race](images/on-squadrace-relay-gold-coast-adian-dineen-1024x768.jpg)
+![On Running SquadRace Relay Gold Coast 5km relay race](./on-squadrace-relay-gold-coast-adian-dineen-1024x768.jpg)
 
 <figcaption>
 
@@ -39,7 +50,7 @@ Initially, the body responds to these stresses with tissue strain and fatigue, b
 
 <figure>
 
-![Chart illustrating training, fatigue, recovery, supercompensation and reversability](images/training-principles-fitness-fatigue-recovery-supercompensation-reversability.png)
+![Chart illustrating training, fatigue, recovery, supercompensation and reversability](./training-principles-fitness-fatigue-recovery-supercompensation-reversability.png)
 
 <figcaption>
 
@@ -53,7 +64,7 @@ When the body is subjected to too much loading or insufficient recovery, it can 
 
 <figure>
 
-![Chart illustrating supercompensation from adequate training, undertraining and overtraining](images/training-principles-overtraining-undertraining.png)
+![Chart illustrating supercompensation from adequate training, undertraining and overtraining](./training-principles-overtraining-undertraining.png)
 
 <figcaption>
 
@@ -67,7 +78,7 @@ Fitness improves sustainably when loading is balanced with adequate recovery.
 
 <figure>
 
-![Chart illustrating sustainable adaptation to training for increased athletic performance](images/training-principles-increasing-athletic-performance-1024x247.png)
+![Chart illustrating sustainable adaptation to training for increased athletic performance](./training-principles-increasing-athletic-performance-1024x247.png)
 
 <figcaption>
 
@@ -83,11 +94,11 @@ Training load, or training stress, is essentially the cumulative work done by an
 
 1. **Intensity:** The intensity or quality of a workout (e.g., relative pace, heart rate or power output during a session).
 
-3. **Duration:** The length of time spent on each workout.
+2. **Duration:** The length of time spent on each workout.
 
-5. **Frequency:** How often the workouts occur within a given period (weekly, monthly).
+3. **Frequency:** How often the workouts occur within a given period (weekly, monthly).
 
-![Man running uphill](images/man-running-uphill-jeremy-lapak-unsplash-2-1024x819.jpg)
+![Man running uphill](./man-running-uphill-jeremy-lapak-unsplash-2-1024x819.jpg)
 
 Applied sports scientist [Dr Tim Gabbett reports](https://gabbettperformance.com.au/wp-content/uploads/2014/01/the-development-and-application-of-an-injury.pdf) that several studies have investigated the influence of training volume, intensity, and frequency on athletic performance, with performance generally improving with increases in any of these variables. Gabbett's 2010 paper reviews a 1996 study by Foster et al. where 56 runners, cyclists, and speed skaters were studied during 12 weeks of training and reported that a 10-fold increase in training load was associated with a 10% improvement in performance. However, it has also been shown that negative adaptations to exercise training are dose related, with the highest incidence of illness and injury occurring when training loads are highest.
 
@@ -109,7 +120,7 @@ Nowadays, there are many approaches to quantify loading, many of which are built
 
 <figure>
 
-![Chart modeling the authors TRIMP training load over several seasons and injuries](images/TRIMP-example-over-3-training-seasons-by-the-author.png)
+![Chart modeling the authors TRIMP training load over several seasons and injuries](./TRIMP-example-over-3-training-seasons-by-the-author.png)
 
 <figcaption>
 
@@ -137,7 +148,7 @@ Initially created by Dr. Andrew Coggan in the early 2000s for cycling, [TSS calc
 
 <figure>
 
-![Chart modeling the authors Skiba GOVSS training load over several seasons and injuries](images/GOVSS-example-over-3-training-seasons-by-the-author.png)
+![Chart modeling the authors Skiba GOVSS training load over several seasons and injuries](./GOVSS-example-over-3-training-seasons-by-the-author.png)
 
 <figcaption>
 
@@ -167,7 +178,7 @@ While tools like TRIMP, TSS, GOVSS, and sRPE offer valuable insights, no single 
 
 <figure>
 
-![Wondai Country Running Festival 2024 Parkside 10km women's podium](images/wondai-running-festival-2023-10km-rail-trail-podium-1024x683.jpg)
+![Wondai Country Running Festival 2024 Parkside 10km women's podium](./wondai-running-festival-2023-10km-rail-trail-podium-1024x683.jpg)
 
 <figcaption>
 
@@ -183,7 +194,7 @@ At Chiron, our mission is to bridge the gap between the art and science of train
 
 <figure>
 
-![RECC Run The World Relay Gold Coast 2024](images/RECC-run-the-world-relay-gold-coast-2024-edited-scaled.jpg)
+![RECC Run The World Relay Gold Coast 2024](./RECC-run-the-world-relay-gold-coast-2024-edited-scaled.jpg)
 
 <figcaption>
 
@@ -197,15 +208,15 @@ On the horizon, Chiron will unveil advanced performance and training load manage
 
 1. 🧮 **Track training load**: Chiron measures current and historical training load, peak performances, and other athlete data.
 
-3. 🎯 **Set goals and constraints**: Coaches and athletes can define event goals, performance targets, and training constraints (e.g., designated rest days, club sessions, tapering strategies).
+2. 🎯 **Set goals and constraints**: Coaches and athletes can define event goals, performance targets, and training constraints (e.g., designated rest days, club sessions, tapering strategies).
 
-5. 🛠️ **Build a training plan**: The AI-powered Assistant Coach works with coaches to generate optimal target training load curves, incorporating progressive overload, recovery periods, and athlete-specific factors.
+3. 🛠️ **Build a training plan**: The AI-powered Assistant Coach works with coaches to generate optimal target training load curves, incorporating progressive overload, recovery periods, and athlete-specific factors.
 
-7. ✏️ **Customize**: Coaches and athletes tailor the plan, ensuring each cycle aligns with target training loads and upcoming events. Assistant Coach offers recommendations based on historical data and predefined constraints.
+4. ✏️ **Customize**: Coaches and athletes tailor the plan, ensuring each cycle aligns with target training loads and upcoming events. Assistant Coach offers recommendations based on historical data and predefined constraints.
 
-9. 🔄 **Execute and adapt**: Athletes follow the plan while providing periodic subjective inputs such as fatigue, RPE, sickness or niggles. Assistant Coach uses machine intelligence to continually provide insights and adapt to the individual. Plans are regularly fine-tuned by the coach, athlete or Assistant Coach to reflect progress and insights.
+5. 🔄 **Execute and adapt**: Athletes follow the plan while providing periodic subjective inputs such as fatigue, RPE, sickness or niggles. Assistant Coach uses machine intelligence to continually provide insights and adapt to the individual. Plans are regularly fine-tuned by the coach, athlete or Assistant Coach to reflect progress and insights.
 
-11. 🏁 **Race day and beyond**: After the race, athletes and coaches reflect on performance and use the learnings to shape future training cycles. These insights feed back into Assistant Coach, improving precision and personalization for subsequent cycles.
+6. 🏁 **Race day and beyond**: After the race, athletes and coaches reflect on performance and use the learnings to shape future training cycles. These insights feed back into Assistant Coach, improving precision and personalization for subsequent cycles.
 
 ## **Finding the balance**
 

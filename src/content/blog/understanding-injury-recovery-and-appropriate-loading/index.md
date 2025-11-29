@@ -30,7 +30,7 @@ Outside of clear exceptions — like the initial weeks of a bone injury — _som
 
 <figure>
 
-![Single leg Romanian deadlift jump](images/single-leg-romanian-deadlift-jump-julia-rekamie-unsplash.jpg)
+![Single leg Romanian deadlift jump](./single-leg-romanian-deadlift-jump-julia-rekamie-unsplash.jpg)
 
 <figcaption>
 

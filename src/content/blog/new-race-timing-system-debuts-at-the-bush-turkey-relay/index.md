@@ -18,7 +18,7 @@ The relay was fast, competitive, and tremendous fun. With more teams than ever, 
 
 ---
 
-## Why We Built the Race Timing System
+## Why I Built the Race Timing System
 
 As the club’s tech lead, I usually handle:
 

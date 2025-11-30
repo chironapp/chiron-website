@@ -10,9 +10,9 @@ image: "./Road-to-Osaka-2025-cover.png"
 
 Week 11 of my _Road to Osaka 2025_ journey was a mix of highs, challenges, and adaptability.
 
-![](./exported_4B8E6B3F-C2B6-4CAC-8357-AF9127853135-576x1024.jpg)
+![Road to Osaka week 11 marathon workout](./road-to-osaka-week-11-marathon-workout-576x1024.jpg)
 
-![](./exported_079D8E92-EB23-4FBA-8EC4-4AAF7E6C1146-576x1024.jpg)
+![Road to Osaka week 11 training highlights](./road-to-osaka-week-11-training-highlights-576x1024.jpg)
 
 I kicked things off with another appearance [on the _Local Legends in Running_ podcast with Oli and Kyle](/2024/12/local-legends-in-running-podcast-s3-ep-70-road-to-osaka-gross-weise/). These discussions are always a great way to reflect on training and share insights, and this one didn’t disappoint!
 

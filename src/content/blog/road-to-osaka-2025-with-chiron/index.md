@@ -3,7 +3,7 @@ title: "Road to Osaka 2025 with Chiron"
 pubDate: 2024-11-04
 tags: ["training-stories"]
 description: "Welcome to _Road to Osaka 2025_ – a weekly series where I’ll be sharing the ups, downs, and everything in between on my journey to the Osaka Marathon ..."
-image: "./IMG_9452.jpeg"
+image: "./road-to-osaka-2025-marathon-training-journey.jpeg"
 ---
 
 Welcome to _Road to Osaka 2025_ – a weekly series where I’ll be sharing the ups, downs, and everything in between on my journey to the Osaka Marathon 24 Feb 2025! Through this series, I’m excited to journal my own marathon training while also documenting the development of Chiron, the endurance training app I’m building to help athletes like you optimize your performance.

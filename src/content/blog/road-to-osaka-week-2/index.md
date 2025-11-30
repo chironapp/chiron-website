@@ -6,9 +6,9 @@ description: "**Chiron Connected Apps (Strava) feature and first summer marathon
 image: "./Road-to-Osaka-2025-cover.png"
 ---
 
-![](./exported_8F62AB90-D4B3-4229-B157-19CB3A294A41-1-576x1024.jpg)
+![Road to Osaka week 2 Chiron Strava connected apps](./road-to-osaka-week-2-chiron-strava-connected-apps-576x1024.jpg)
 
-![](./exported_54598E65-D051-4ED8-BD43-908FA544DB2D-3-576x1024.jpg)
+![Road to Osaka week 2 summer marathon workout](./road-to-osaka-week-2-summer-marathon-workout-576x1024.jpg)
 
 **Chiron Connected Apps (Strava) feature and first summer marathon workout**
 

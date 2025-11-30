@@ -1,7 +1,7 @@
 ---
 title: "New Race Timing System Debuts at the Bush Turkey Relay"
 pubDate: 2025-11-30
-tags: ["updates", "race timing"]
+tags: ["updates", "race timing", "training-stories"]
 description: "We debuted Chiron's new race timing system at the Bush Turkey Relay, simplifying race organisation, timing, and results publishing."
 image: "./bush-turkey-relay-2025-start.JPG"
 ---

@@ -3,18 +3,18 @@ title: "Understanding injury recovery and appropriate loading"
 pubDate: 2025-08-13
 tags: ["training-load"]
 description: "Tim Gabbett recently wrote a great article on the lessons strength and conditioning coaches can learn from rehab professionals - particularly the reminder that you can't cheat biological healing time."
-image: "./IMG_0095.jpg"
+image: "./injury-recovery-tissue-loading-featured.jpg"
 ---
 
 Tim Gabbett recently wrote a [great article on the lessons strength and conditioning coaches can learn from rehab professionals \[1\]](https://gabbettperformance.com.au/you-cant-cheat-biological-healing-time-what-can-strength-and-conditioning-coaches-learn-from-rehab-professionals/) — particularly the reminder that _you can’t cheat biological healing time_. It got me thinking about how this principle plays out in the real world for athletes returning from injury, and how the idea of _appropriate loading_ is often misunderstood.
 
 <figure>
 
-![](./IMG_0096-1024x892.jpg)
+![Chiron training volume return to run week 1](./chiron-training-volume-return-to-run-week1-1024x892.jpg)
 
-![](./IMG_0097-1024x890.jpg)
+![Chiron training volume return to run week 2](./chiron-training-volume-return-to-run-week2-1024x890.jpg)
 
-![](./IMG_0098-1024x889.jpg)
+![Chiron training volume return to run week 3](./chiron-training-volume-return-to-run-week3-1024x889.jpg)
 
 <figcaption>
 

@@ -12,7 +12,7 @@ With just **two weeks to go until race day**, the biggest training weeks are beh
 
 ---
 
-[![](./exported_BD5EF73D-457C-43AB-8E0D-38CC9591DC02-169x300.jpeg)](https://www.instagram.com/reel/DF85IqGz1zB5-0F2FNVAPlc4z5Ut7-CGfA_K2M0/)
+[![Road to Osaka week 16 taper training](./road-to-osaka-week-16-taper-training-169x300.jpeg)](https://www.instagram.com/reel/DF85IqGz1zB5-0F2FNVAPlc4z5Ut7-CGfA_K2M0/)
 
 This week still featured **some solid marathon-focused sessions**, including a **14km marathon effort on Friday** and a **mid-week 2-hour long run** to keep the endurance ticking over. But the real highlight was the **[Moreton Bay Road Runners](https://www.mbrr.com.au/) Club Camp** at Alexandra Headland.
 
@@ -34,4 +34,4 @@ _Week 16 of 18. Osaka Marathon 24 February 2025._
 
 **Stay updated on Chiron's journey to release and be the first to know about new stories like this - [Sign up here](/contact/).**
 
-[![](./IMG_1077-768x1024.jpeg)](https://www.instagram.com/reel/DF85IqGz1zB5-0F2FNVAPlc4z5Ut7-CGfA_K2M0/)
+[![Road to Osaka week 16 MBRR club camp](./road-to-osaka-week-16-mbrr-club-camp-768x1024.jpeg)](https://www.instagram.com/reel/DF85IqGz1zB5-0F2FNVAPlc4z5Ut7-CGfA_K2M0/)

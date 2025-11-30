@@ -48,9 +48,9 @@ Supports both **manual timing** and **RFID chip timing (coming soon)** for accur
 
 At the Bush Turkey Relay, **6 spectators, Linda, Andrea, Shane, Chris, Avi, and Mitch, volunteered to timekeep using the mobile web version of Chiron**, showing how easy it is for anyone to contribute.
 
-![Race timing screen adjust view mobile web](./race-timing-screen-adjust-view-mobile-web.JPG)
+![Race timing screen adjust view mobile web](./race-timing-screen-adjust-view-mobile-web.jpg)
 ![Race timing screen mobile web](./race-timing-screen-start-race-mobile-web.jpg)  
-![Race timing screen mobile web](./race-timing-screen-mobile-web.JPG)
+![Race timing screen mobile web](./race-timing-screen-mobile-web.jpg)
 
 ### Team Management
 

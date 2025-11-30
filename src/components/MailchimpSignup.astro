@@ -1,6 +1,22 @@
 ---
 // Mailchimp Signup Component
 // Clean, modern version of the Mailchimp form
+
+const howUseOptions = [
+  "Help plan and manage my own training",
+  "I'm a coach and want to manage my athletes' training",
+  "I’m a sports clinician and want to manage patient rehab and other programs",
+  "I'm a race organiser and want to manage and time events",
+  "Use AI to help improve planning and analysis"
+];
+
+const athleteTypeOptions = [
+  "Runner",
+  "Cyclist",
+  "Triathlete",
+  "General fitness enthusiast",
+  "Other"
+];
 ---
 
 <div class="bg-primary-50 rounded-lg p-6 md:p-8">
@@ -95,10 +111,9 @@
         class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-colors bg-white"
       >
         <option value="">Select an option</option>
-        <option value="Help plan and manage my personal training">Help plan and manage my personal training</option>
-        <option value="I'm a coach and want to manage my athletes' training">I'm a coach and want to manage my athletes' training</option>
-        <option value="I'm a sports clinician and want to manage patient rehab and other programs">I'm a sports clinician and want to manage patient rehab and other programs</option>
-        <option value="Use AI to help improve planning and analysis">Use AI to help improve planning and analysis</option>
+        {howUseOptions.map((option) => (
+          <option value={option}>{option}</option>
+        ))}
       </select>
       <p class="mt-2 text-sm text-gray-500">Select the most relevant if more than one applies.</p>
     </div>
@@ -114,11 +129,9 @@
         class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-colors bg-white"
       >
         <option value="">Select your sport</option>
-        <option value="Runner">Runner</option>
-        <option value="Cyclist">Cyclist</option>
-        <option value="Triathlete">Triathlete</option>
-        <option value="General fitness enthusiast">General fitness enthusiast</option>
-        <option value="Other">Other</option>
+        {athleteTypeOptions.map((option) => (
+          <option value={option}>{option}</option>
+        ))}
       </select>
     </div>
 

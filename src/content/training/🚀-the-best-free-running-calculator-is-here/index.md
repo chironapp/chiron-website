@@ -1,6 +1,6 @@
 ---
 title: "🚀 The Best Free Running Calculator Is Here!"
-pubDate: "2025-02-15"
+pubDate: 2025-02-15
 tags: ["updates", "tools"]
 description: "I’m excited to introduce the new **[Chiron Running Calculator](https://calculator.chironapp.com/)** – designed to help you predict race times, calcula..."
 image: "./Running-Calculator-Chiron-2.jpeg"

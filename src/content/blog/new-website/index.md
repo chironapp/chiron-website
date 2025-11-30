@@ -1,6 +1,6 @@
 ---
 title: "Introducing Our New Website"
-pubDate: "2025-11-30"
+pubDate: 2025-11-30
 tags: ["updates"]
 description: "We're excited to announce that the Chiron website has officially moved from WordPress to a brand‑new Astro-powered platform!"
 image: "/images/purple-theme-RECC-Run-The-World-Relay-victory.jpeg"

@@ -1,6 +1,6 @@
 ---
 title: "Road to Osaka week 14"
-pubDate: "2025-01-30"
+pubDate: 2025-01-30
 tags: ["training-stories", "features", "marathon", "osakamarathon", "training"]
 description: "Peak mileage"
 image: "./Road-to-Osaka-2025-cover.png"

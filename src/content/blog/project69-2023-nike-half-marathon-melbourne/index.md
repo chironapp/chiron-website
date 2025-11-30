@@ -1,6 +1,6 @@
 ---
 title: "PROJECT69 - 2023 Nike Half Marathon Melbourne"
-pubDate: "2023-11-01"
+pubDate: 2023-11-01
 tags: ["training-stories"]
 description: "I love to set wildly ambitious running goals and work relentlessly toward achieving them. Following the mixed emotions of my Gold Coast Marathon exper..."
 image: "./nike-melbourne-half-marathon-2023-2-scaled.jpg"

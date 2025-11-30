@@ -1,6 +1,6 @@
 ---
 title: "Gold Coast Marathon 2023 Race Report"
-pubDate: "2023-07-08"
+pubDate: 2023-07-08
 tags: ["training-stories"]
 description: "On 2nd July, 2023, I stood at the starting line of the [Gold Coast Marathon](https://goldcoastmarathon.com.au/), determined to surpass my previous bes..."
 image: "./gold-coast-marathon-2023-01.jpg"

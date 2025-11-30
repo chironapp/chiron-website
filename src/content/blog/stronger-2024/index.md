@@ -1,6 +1,6 @@
 ---
 title: "Stronger 2024"
-pubDate: "2024-02-25"
+pubDate: 2024-02-25
 tags: ["training-stories"]
 description: "As a passionate runner, the journey back to the roads following my second sacral stress fracture in December 2023, compounded by osteitis pubis, has b..."
 ---

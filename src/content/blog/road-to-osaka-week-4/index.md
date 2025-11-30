@@ -1,6 +1,6 @@
 ---
 title: "Road to Osaka week 4"
-pubDate: "2024-11-20"
+pubDate: 2024-11-20
 tags: ["training-stories", "features", "marathon", "osakamarathon", "training"]
 description: "**Chiron coaching feature and RECC Run the World Relay Gold Coast**"
 image: "./Road-to-Osaka-2025-cover.png"

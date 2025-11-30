@@ -1,6 +1,6 @@
 ---
 title: "Managing training load for long distance runners"
-pubDate: "2025-01-08"
+pubDate: 2025-01-08
 tags:
   [
     "fatigue",

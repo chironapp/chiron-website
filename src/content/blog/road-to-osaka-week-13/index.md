@@ -1,6 +1,6 @@
 ---
 title: "Road to Osaka week 13"
-pubDate: "2025-01-21"
+pubDate: 2025-01-21
 tags: ["training-stories", "features", "marathon", "osakamarathon", "training"]
 description: "This week, I’ve hit a big milestone in my training—and I’m excited to share both my progress and a cool feature in **Chiron**."
 image: "./Road-to-Osaka-2025-cover.png"

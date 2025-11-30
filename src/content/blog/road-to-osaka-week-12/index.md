@@ -1,6 +1,6 @@
 ---
 title: "Road to Osaka week 12"
-pubDate: "2025-01-14"
+pubDate: 2025-01-14
 tags: ["training-stories", "features", "marathon", "osakamarathon", "training"]
 description: "**Recover, refocus, and recharge: The Road to Osaka continues!**"
 image: "./Road-to-Osaka-2025-cover.png"

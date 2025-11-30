@@ -1,6 +1,6 @@
 ---
 title: "Road to Osaka week 6"
-pubDate: "2024-12-04"
+pubDate: 2024-12-04
 tags: ["training-stories", "features", "marathon", "osakamarathon", "training"]
 description: "**Chiron Events feature and overtraining injury scare**"
 image: "./Road-to-Osaka-2025-cover.png"

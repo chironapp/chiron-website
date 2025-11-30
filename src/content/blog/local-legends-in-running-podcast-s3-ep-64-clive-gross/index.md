@@ -1,6 +1,6 @@
 ---
 title: "Local Legends in Running Podcast S3 Ep 64 - Clive Gross"
-pubDate: "2024-10-28"
+pubDate: 2024-10-28
 tags: ["training-stories", "locallegendsinrunningpodcast", "podcast"]
 description: "Yesterday I chatted with Oli Jones of the [Local Legends in Running Podcast](https://open.spotify.com/show/5Fo6hoM27djoiyyky4amKl?si=30236ca701d14c8a)..."
 image: "./locallegendsinrunningpodcast.jpeg"

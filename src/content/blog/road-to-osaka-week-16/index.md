@@ -1,6 +1,6 @@
 ---
 title: "Road to Osaka week 16"
-pubDate: "2025-02-13"
+pubDate: 2025-02-13
 tags: ["training-stories", "features", "marathon", "osakamarathon", "training"]
 description: "**The taper begins**"
 image: "./Road-to-Osaka-2025-cover.png"

@@ -1,6 +1,6 @@
 ---
 title: "Local Legends in Running Podcast S3 Ep 73 - Road to Osaka - Gross &amp; Weise"
-pubDate: "2025-02-09"
+pubDate: 2025-02-09
 tags: ["training-stories", "locallegendsinrunningpodcast", "podcast"]
 description: "The [Local Legends in Running Podcast](https://open.spotify.com/show/5Fo6hoM27djoiyyky4amKl?si=30236ca701d14c8a) Road to Osaka Series documents the ma..."
 image: "./locallegendsinrunningpodcast.jpeg"

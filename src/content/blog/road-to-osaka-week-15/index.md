@@ -1,6 +1,6 @@
 ---
 title: "Road to Osaka week 15"
-pubDate: "2025-02-09"
+pubDate: 2025-02-09
 tags: ["training-stories", "features", "marathon", "osakamarathon", "training"]
 description: "Three weeks to go until **Osaka Marathon 2025**, and this week was a battle."
 image: "./Road-to-Osaka-2025-cover.png"

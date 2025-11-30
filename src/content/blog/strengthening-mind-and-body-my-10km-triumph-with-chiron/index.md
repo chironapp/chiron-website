@@ -1,6 +1,6 @@
 ---
 title: "Strengthening mind and body: My 10km triumph with Chiron"
-pubDate: "2023-09-11"
+pubDate: 2023-09-11
 tags: ["training-stories"]
 description: "Yesterday marked a pivotal day in my running journey as I conquered a 10km time trial. It was more than just a race; it was a test of mental strength,..."
 image: "./moreton-bay-road-runners-south-pine-striders-september-time-trial-featured.jpg"

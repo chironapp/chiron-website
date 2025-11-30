@@ -1,6 +1,6 @@
 ---
 title: "And our website has launched..."
-pubDate: "2023-06-03"
+pubDate: 2023-06-03
 tags: ["training-stories", "updates"]
 description: "Excited to share our project progress and commitment to bringing this platform to market by end of year."
 image: "./fog-runner-4672x3115-1-scaled.jpg"

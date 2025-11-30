@@ -1,6 +1,6 @@
 ---
 title: "Road to Osaka week 11"
-pubDate: "2025-01-08"
+pubDate: 2025-01-08
 tags: ["training-stories", "features", "marathon", "osakamarathon", "training"]
 description: "**Adapting and thriving in marathon prep**"
 image: "./Road-to-Osaka-2025-cover.png"

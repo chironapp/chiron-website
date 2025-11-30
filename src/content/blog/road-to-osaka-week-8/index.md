@@ -1,6 +1,6 @@
 ---
 title: "Road to Osaka week 8"
-pubDate: "2024-12-18"
+pubDate: 2024-12-18
 tags: ["training-stories", "features", "marathon", "osakamarathon", "training"]
 description: "**Local Legends, Kedron pacing, and finding balance**"
 image: "./Road-to-Osaka-2025-cover.png"

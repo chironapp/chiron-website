@@ -1,6 +1,6 @@
 ---
 title: "Road to Osaka week 2"
-pubDate: "2024-11-06"
+pubDate: 2024-11-06
 tags: ["marathon", "osakamarathon"]
 description: "**Chiron Connected Apps (Strava) feature and first summer marathon workout**"
 image: "./Road-to-Osaka-2025-cover.png"

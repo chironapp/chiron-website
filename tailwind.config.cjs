@@ -21,7 +21,21 @@ module.exports = {
           950: '#2a0050',
         },
       },
+      typography: (theme) => ({
+        primary: {
+          css: {
+            '--tw-prose-links': theme('colors.primary.600'),
+            '--tw-prose-invert-links': theme('colors.primary.400'),
+            'a': {
+              textDecoration: 'underline',
+              '&:hover': {
+                color: theme('colors.primary.800'),
+              },
+            },
+          },
+        },
+      }),
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };

@@ -14,7 +14,7 @@ _Photo by [Paul Manning](https://www.instagram.com/thesundaylongrun/) 2025._
 
 Excitement was high at this year’s **Bush Turkey Relay**! The club expanded from 4 teams of 8 to 6 teams of 8 (48 participants), introducing **two new team colours: blue and pink**. I once again anchored the **red team**, captained by James for the fourth consecutive year.
 
-The relay was fast, competitive, and tremendous fun. With more teams than ever, the energy was palpable from start to finish. Despite the chaos that often comes with managing spreadsheets, start lists, and publishing results, the event ran smoothly — thanks in large part to the debut of the **new race timing system in Chiron**.
+The relay was fast, competitive, and tremendous fun. With more teams than ever, the atmosphere was buzzing from start to finish. Despite the chaos that often comes with managing spreadsheets, start lists, and publishing results, the event ran smoothly — thanks in large part to the debut of the **new race timing system in Chiron**.
 
 ---
 
@@ -121,6 +121,6 @@ This debut is just the start. Our goal is to make every race day:
 - **Faster**
 - **More fun**
 
-for both participants and organisers. Stay tuned for more races, improvements, and updates to the Chiron Race Timing System!
+for both participants and organisers. If you're interested in using Chiron to organise or time your next event, [**get in touch**](/contact/), we'd love to help.
 
 ![Bush Turkey Relay celbration](./bush-turkey-relay-2025-celebration.JPG)

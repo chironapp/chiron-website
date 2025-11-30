@@ -49,8 +49,29 @@ Supports both **manual timing** and **RFID chip timing (coming soon)** for accur
 At the Bush Turkey Relay, **6 spectators, Linda, Andrea, Shane, Chris, Avi, and Mitch, volunteered to timekeep using the mobile web version of Chiron**, showing how easy it is for anyone to contribute.
 
 ![Race timing screen adjust view mobile web](./race-timing-screen-adjust-view-mobile-web.jpg)
+
+<figcaption>
+
+_Adjusting the race timing screen layout for a single relay team on mobile web._
+
+</figcaption>
+
 ![Race timing screen mobile web](./race-timing-screen-start-race-mobile-web.jpg)  
+
+<figcaption>
+
+_Race timing screen on mobile web, ready to  start._
+
+</figcaption>
+
 ![Race timing screen mobile web](./race-timing-screen-mobile-web.jpg)
+
+<figcaption>
+
+_Race timing in progress, on mobile web._
+
+</figcaption>
+
 
 ### Team Management
 
@@ -84,9 +105,9 @@ Huge thanks to **Linda, Andrea, Shane, Chris, Avi, and Mitch** for volunteering 
 
 ![Taz takes the win for white team](./taz-white-team-win.JPG)
 
-White took the win for the **second year in a row**! I put my heart and soul into the final leg, desperately trying to chase down Taz. I managed to pass **Aidan and Isaac** from the Black and Pink teams respectively in the first 500m.
+**White Team took the win for the second year in a row**! I put my heart and soul into the final leg, desperately trying to chase down Taz. I managed to pass Aidan and Isaac from the Black and Pink teams respectively in the first 500m.
 
-However, it turns out I put a bit too much soul into it — my legs went lactic and I got the **death wobbles** with 200m to go, just in time for **Michael Cnops from the Blue team** to come tearing past in the final 20m, leaving me to finish **second**.
+However, it turns out I put a bit too much soul into it — my legs went lactic and I got the **death wobbles** with 200m to go, just in time for **Michael Cnops from the Blue team** to come tearing past in the final 20m, leaving me to finish **third**.
 
 ![Cooked](./bush-turkey-relay-michael-blue-clive-red-team-finish.JPG)
 

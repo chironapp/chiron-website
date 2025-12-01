@@ -10,9 +10,9 @@ image: "./Road-to-Osaka-2025-cover.png"
 
 _Week 9 of my Road to Osaka 2025 series was all about regaining momentum—both in marathon training and app development._
 
-![](./road-to-osaka-week-9-cover-576x1024.jpg)
+![Road to Osaka Marathon 2025 week 9 training summary cover](./road-to-osaka-week-9-cover-576x1024.jpg)
 
-![](./road-to-osaka-week-9-highlight-576x1024.jpg)
+![Road to Osaka week 9 training highlights featuring marathon workout in summer heat](./road-to-osaka-week-9-highlight-576x1024.jpg)
 
 On the Chiron front, I tackled lingering bugs after realizing I’d gone three weeks without committing any code. It’s a small but important step forward, and much like running, it’s about staying consistent.
 

@@ -6,9 +6,9 @@ description: "**Chiron Events feature and overtraining injury scare**"
 image: "./Road-to-Osaka-2025-cover.png"
 ---
 
-![](./road-to-osaka-week-6-576x1024.jpg)
+![Road to Osaka Marathon 2025 week 6 training summary cover](./road-to-osaka-week-6-576x1024.jpg)
 
-![](./road-to-osaka-week-6-training-576x1024.jpg)
+![Road to Osaka week 6 training highlights showing recovery from injury scare](./road-to-osaka-week-6-training-576x1024.jpg)
 
 **Chiron Events feature and overtraining injury scare**
 

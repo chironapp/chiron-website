@@ -12,9 +12,9 @@ Three weeks to go until **Osaka Marathon 2025**, and this week was a battle.
 
 ---
 
-![](./Road-to-Osaka-week-15-cover-576x1024.jpg)
+![Road to Osaka Marathon 2025 week 15 training summary cover](./Road-to-Osaka-week-15-cover-576x1024.jpg)
 
-![](./Road-to-Osaka-week-15-highlight-576x1024.jpg)
+![Road to Osaka week 15 training highlights showing 114km mileage and 10km time trial](./Road-to-Osaka-week-15-highlight-576x1024.jpg)
 
 Between **peak marathon training, high work demands, home projects**, and everything else life is throwing at me, I’ve been running on fumes. A few days late on releasing this week's episode but—**we’re still getting it done.**
 

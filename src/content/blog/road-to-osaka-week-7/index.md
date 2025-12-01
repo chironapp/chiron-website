@@ -6,9 +6,9 @@ description: "**Chiron merge/unmerge workouts feature, relays, recovery, and pro
 image: "./Road-to-Osaka-2025-cover.png"
 ---
 
-![](./road-to-osaka-week-7-cover-576x1024.jpg)
+![Road to Osaka Marathon 2025 week 7 training summary cover](./road-to-osaka-week-7-cover-576x1024.jpg)
 
-![](./road-to-osaka-week-7-highlight-576x1024.jpg)
+![Road to Osaka week 7 training highlights featuring Bush Turkey Relay and Chiron workout merging feature](./road-to-osaka-week-7-highlight-576x1024.jpg)
 
 **Chiron merge/unmerge workouts feature, relays, recovery, and progress**
 

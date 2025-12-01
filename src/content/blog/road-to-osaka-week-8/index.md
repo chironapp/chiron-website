@@ -6,9 +6,9 @@ description: "**Local Legends, Kedron pacing, and finding balance**"
 image: "./Road-to-Osaka-2025-cover.png"
 ---
 
-![](./road-to-osaka-week-8-cover-576x1024.jpg)
+![Road to Osaka Marathon 2025 week 8 training summary cover](./road-to-osaka-week-8-cover-576x1024.jpg)
 
-![](./road-to-osaka-week-8-highlight-576x1024.jpg)
+![Road to Osaka week 8 training highlights featuring Local Legends podcast and Kedron parkrun pacing](./road-to-osaka-week-8-highlight-576x1024.jpg)
 
 **Local Legends, Kedron pacing, and finding balance**
 

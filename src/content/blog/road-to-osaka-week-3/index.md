@@ -6,9 +6,9 @@ description: "**Chiron Workout Library feature and hilly long run in the SunShin
 image: "./Road-to-Osaka-2025-cover.png"
 ---
 
-![](./road-to-osaka-week-3-576x1024.jpg)
+![Road to Osaka Marathon 2025 week 3 training summary cover](./road-to-osaka-week-3-576x1024.jpg)
 
-![](./road-to-osaka-week-3-training-576x1024.jpg)
+![Road to Osaka week 3 training highlights featuring Chiron Workout Library and Sunshine Coast hinterland long run](./road-to-osaka-week-3-training-576x1024.jpg)
 
 **Chiron Workout Library feature and hilly long run in the SunShine Coast hinterland**
 

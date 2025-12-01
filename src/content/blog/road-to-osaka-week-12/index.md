@@ -10,9 +10,9 @@ image: "./Road-to-Osaka-2025-cover.png"
 
 Week 12 of my _Road to Osaka 2025_ was all about recovery and consolidation as I gear up for the final few weeks of hard training before tapering. Balancing work, training, and family commitments post-Christmas made this the perfect time to step back, let the body recover, and build momentum for the stretch ahead.
 
-[![](./road-to-osaka-week-12-cover-576x1024.jpg)](https://www.instagram.com/reel/DEzHJyfxq50VGgGLVWirEJO0tNtD6WpoAbwKpA0/?igsh=MXZqNXZxcWhqOWIweQ==)
+[![Road to Osaka Marathon 2025 week 12 training summary cover](./road-to-osaka-week-12-cover-576x1024.jpg)](https://www.instagram.com/reel/DEzHJyfxq50VGgGLVWirEJO0tNtD6WpoAbwKpA0/?igsh=MXZqNXZxcWhqOWIweQ==)
 
-[![](./road-to-osaka-week-12-training-highlight-576x1024.jpg)](https://www.instagram.com/reel/DEzHJyfxq50VGgGLVWirEJO0tNtD6WpoAbwKpA0/?igsh=MXZqNXZxcWhqOWIweQ==)
+[![Road to Osaka week 12 training highlights showing recovery week and 105km volume](./road-to-osaka-week-12-training-highlight-576x1024.jpg)](https://www.instagram.com/reel/DEzHJyfxq50VGgGLVWirEJO0tNtD6WpoAbwKpA0/?igsh=MXZqNXZxcWhqOWIweQ==)
 
 On the **Chiron** front, I continued refining the codebase, squashed a few lingering bugs, and made some small but meaningful updates to the Home Screen. I also hit a personal milestone by publishing my first training article, [**Managing Training Load for Long-Distance Runners**](/2025/01/managing-training-load-for-long-distance-runners/). It’s the first in a series of articles I’ll be sharing as we approach Chiron’s launch this year.
 

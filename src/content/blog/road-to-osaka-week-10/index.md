@@ -10,9 +10,9 @@ image: "./Road-to-Osaka-2025-cover.png"
 
 _Week 10 of my Road to Osaka 2025 series focused on ramping up training volume while enjoying quality time with family during Christmas week._
 
-![](./road-to-osaka-week-10-cover-576x1024.jpg)
+![Road to Osaka Marathon 2025 week 10 training summary cover](./road-to-osaka-week-10-cover-576x1024.jpg)
 
-![](./road-to-osaka-week-10-highlight-576x1024.jpg)
+![Road to Osaka week 10 training highlights showing 125km Christmas week volume](./road-to-osaka-week-10-highlight-576x1024.jpg)
 
 The highlight for Chiron was a productive code party with my friend [James Harvey](https://www.linkedin.com/in/james-harvey-brisbane/). While no new features shipped this week, we made significant progress in refining the app’s direction and laying the groundwork for exciting updates in the new year.
 

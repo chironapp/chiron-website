@@ -19,13 +19,13 @@ Race morning found me at the second row from the start line. With the sound of t
 
 My goal was to hit 16:30 5km splits. The first 5km was slightly faster. Shortly after entering Albert Park, the runner by my side suddenly dropped back and disappeared, it was just me out in front with Gen tucked behind me. We went through 10km a tad slower than planned, but my confidence remained unshaken.
 
-![](./nike-melbourne-half-marathon-2023-3-1024x576.jpg)
+![Runner competing at Nike Melbourne Half Marathon 2023 race through Albert Park](./nike-melbourne-half-marathon-2023-3-1024x576.jpg)
 
 After battling against a headwind and navigating through the marathon tailwalkers in Albert Park, I started to feel the toll as the 15km mark approached. Gen gradually fell behind, leaving me solo with a moment of self-doubt. Thoughts of “maybe today isn’t the day for sub 70” and “perhaps I should just settle for a personal best” briefly crossed my mind. But I snapped out of it, focusing on the goal, and drawing inspiration from my family and friends supporting back home, particularly my son Hector’s recent parkrun achievement, running through discomfort to achieve his 24 minute goal.
 
 Approaching the climb toward the Botanic Gardens, I reminded myself that conquering this final hill meant the hardest was behind me, and a smooth descent awaited, leading me back to the MCG. As I turned towards the stadium, my confidence grew. At this point I was hurting, but maintained control for the final kilometres and was able to dial up the intensity a little.
 
-![](./nike-melbourne-half-marathon-2023-1-683x1024.jpg)
+![Runner approaching MCG finish line at Nike Melbourne Half Marathon 2023](./nike-melbourne-half-marathon-2023-1-683x1024.jpg)
 
 I glanced at my watch for the last time as I entered the stadium, it ticked over to 1:09:00.  I looked at the ¾ lap of the field remaining to the finish and was uncertain of the distance remaining but knew it would be close, so I punched it as hard as I could. I crossed the finish line with a gun time of 1:09:45, securing 10th place.
 

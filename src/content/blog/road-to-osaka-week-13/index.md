@@ -12,9 +12,9 @@ This week, I’ve hit a big milestone in my training—and I’m excited to shar
 
 ---
 
-[![](./ROAD-TO-OSAKA-2025-WEEK-13-COVER-576x1024.jpg)](https://www.instagram.com/reel/DFFK4r6x-HD4zNJJeDljQ_HtA-x720suoqOO040/)
+[![Road to Osaka Marathon 2025 week 13 training summary cover](./ROAD-TO-OSAKA-2025-WEEK-13-COVER-576x1024.jpg)](https://www.instagram.com/reel/DFFK4r6x-HD4zNJJeDljQ_HtA-x720suoqOO040/)
 
-[![](./ROAD-TO-OSAKA-2025-WEEK-13-HIGHLIGHT-576x1024.jpg)](https://www.instagram.com/reel/DFFK4r6x-HD4zNJJeDljQ_HtA-x720suoqOO040/)
+[![Road to Osaka week 13 training highlights showing 133km biggest week since June 2023](./ROAD-TO-OSAKA-2025-WEEK-13-HIGHLIGHT-576x1024.jpg)](https://www.instagram.com/reel/DFFK4r6x-HD4zNJJeDljQ_HtA-x720suoqOO040/)
 
 In the video, I preview Chiron’s **schedule recurring workouts feature**. For anyone with a regular training routine—like a Monday recovery run, a weekly gym session, or anything in between—you can now schedule workouts to repeat for up to **90 days in advance**. It’s a game-changer for saving time and keeping consistency! I’m already using it to lock in my recovery runs and gym sessions between now and race day.
 

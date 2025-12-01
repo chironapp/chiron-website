@@ -18,9 +18,9 @@ The peak is now done—time to start the taper.
 
 ---
 
-![](./Road-to-Osaka-Week-14-cover-576x1024.jpg)
+![Road to Osaka Marathon 2025 week 14 peak mileage training summary cover](./Road-to-Osaka-Week-14-cover-576x1024.jpg)
 
-![](./Road-to-Osaka-Week-14-highlight-576x1024.jpg)
+![Road to Osaka week 14 training highlights showing 137km peak week and Chiron Event Attachments feature](./Road-to-Osaka-Week-14-highlight-576x1024.jpg)
 
 ---
 

@@ -54,7 +54,7 @@ A [recent scientific review by Wulff et al \[2\]](https://pmc.ncbi.nlm.nih.gov/a
 
 <figure>
 
-![](./TSMED2024-2336376.001.jpg)
+![Graph showing relationship between return to sport days and rerupture risk in muscle injury rehabilitation](./TSMED2024-2336376.001.jpg)
 
 <figcaption>
 

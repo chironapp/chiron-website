@@ -6,9 +6,9 @@ description: "**Chiron coaching feature and RECC Run the World Relay Gold Coast*
 image: "./Road-to-Osaka-2025-cover.png"
 ---
 
-![](./road-to-osaka-week-4-576x1024.jpg)
+![Road to Osaka Marathon 2025 week 4 training summary cover](./road-to-osaka-week-4-576x1024.jpg)
 
-![](./road-to-osaka-week-4-training-576x1024.jpg)
+![Road to Osaka week 4 training highlights featuring Chiron coaching feature and RECC Run the World Relay win](./road-to-osaka-week-4-training-576x1024.jpg)
 
 **Chiron coaching feature and RECC Run the World Relay Gold Coast**
 

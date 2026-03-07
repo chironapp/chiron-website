@@ -1,7 +1,6 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import NewsletterSignup from '../components/NewsletterSignup.astro';
 import MailchimpSignup from '../components/MailchimpSignup.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
@@ -11,17 +10,21 @@ import MailchimpSignup from '../components/MailchimpSignup.astro';
   <section class="py-20">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-8 text-center">
-        Stay informed
+        Be First to Train with Chiron
       </h1>
       
       <p class="text-xl text-gray-600 mb-12 text-center">
-        Stay informed about the Chiron app release and receive tips, resources and stories to help you with your running journey.
+        Be among the first athletes and coaches to try Chiron — the intelligent training platform designed to help you plan smarter, optimise training, and perform on race day.
       </p>
 
       <!-- Mailchimp Signup -->
       <div class="mb-12">
         <MailchimpSignup />
       </div>
+
+      <p class="text-xl text-gray-900 mb-12 text-center">
+        Beta testing opens soon.
+      </p>
 
       <!-- Hero image -->
       <div class="max-w-2xl mx-auto">

@@ -100,7 +100,13 @@ tags: ["chironpy", "open-source"]
 1. **Opening paragraph** — one or two sentences summarising the release scope
 2. **What's new** — a section per significant change or feature; use subheadings (`##`) and code examples where relevant
 3. **Upgrade** — brief instructions: `pip install --upgrade chironpy`
-4. **Links** — changelog ({CHANGELOG_URL}), GitHub ({CHIRONPY_REPO}), PyPI (https://pypi.org/project/chironpy/)
+4. **About chironpy** — include this section verbatim:
+
+   > chironpy is Chiron's open source Python library for processing and analysing endurance activity data. It standardises inputs from FIT, GPX, TCX, and Strava into a unified structure with 1Hz time-series data, and handles the metrics and resampling that power Chiron's training analysis.
+   >
+   > Open source is how we give back to the endurance sports data science community. If you work with running or cycling data in Python, [check it out](https://chironpy.chironapp.com/).
+
+5. **Links** — changelog (https://chironpy.chironapp.com/changelog/), GitHub ({CHIRONPY_REPO}), PyPI (https://pypi.org/project/chironpy/)
 
 Keep the post between 400–700 words. No em-dash padding. No bullet-point walls.
 """

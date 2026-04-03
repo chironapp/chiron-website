@@ -23,6 +23,14 @@ CHIRONPY_REPO = "https://github.com/chironapp/chironpy"
 # ── 1. Create stub index.md ──────────────────────────────────────────────────
 
 stub_dir = pathlib.Path(f"src/content/blog/{SLUG}")
+stub_index = stub_dir / "index.md"
+
+if stub_index.exists():
+    raise SystemExit(
+        f"::error::Stub file already exists: {stub_index}. "
+        "Delete it first or choose a different slug to avoid overwriting an existing post."
+    )
+
 stub_dir.mkdir(parents=True, exist_ok=True)
 
 stub = f"""\
@@ -30,14 +38,13 @@ stub = f"""\
 title: ""
 description: ""
 pubDate: {PUB_DATE}
-author: "chiron-assistant-coach"
-heroImage: "/images/chironpy-release-cover.svg"
+image: "/images/chironpy-release-cover.svg"
 tags: ["chironpy", "open-source"]
 ---
 """
 
-(stub_dir / "index.md").write_text(stub)
-print(f"Wrote stub: {stub_dir}/index.md")
+stub_index.write_text(stub)
+print(f"Wrote stub: {stub_index}")
 
 # ── 2. Write PR body (agent instructions) ────────────────────────────────────
 
@@ -95,8 +102,7 @@ Fill in the frontmatter fields in the stub:
 title: "<specific searchable title>"
 description: "<150-160 char meta description>"
 pubDate: {PUB_DATE}
-author: "chiron-assistant-coach"
-heroImage: "/images/chironpy-release-cover.svg"
+image: "/images/chironpy-release-cover.svg"
 tags: ["chironpy", "open-source"]
 ---
 

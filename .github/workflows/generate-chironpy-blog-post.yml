@@ -13,11 +13,11 @@ on:
         default: ''
 
 jobs:
-  create-blog-pr:
+  create-blog-issue:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
-      pull-requests: write
+      contents: read
+      issues: write
 
     steps:
       - uses: actions/checkout@v4
@@ -44,7 +44,7 @@ jobs:
           echo "slug=$SLUG" >> $GITHUB_OUTPUT
           echo "date=$DATE" >> $GITHUB_OUTPUT
 
-      - name: Generate stub file and PR body
+      - name: Generate issue body
         env:
           VERSIONS: ${{ steps.meta.outputs.versions }}
           PUB_DATE: ${{ steps.meta.outputs.date }}
@@ -52,26 +52,11 @@ jobs:
           EXTRA_CONTEXT: ${{ inputs.extra_context }}
         run: python3 .github/scripts/create_blog_pr_files.py
 
-      - name: Commit and push branch
-        env:
-          SLUG: ${{ steps.meta.outputs.slug }}
-          VERSIONS: ${{ steps.meta.outputs.versions }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout -b "blog/$SLUG"
-          git add "src/content/blog/$SLUG"
-          git commit -m "chore: stub blog post for chironpy $VERSIONS"
-          git push origin "blog/$SLUG"
-
-      - name: Open PR
+      - name: Create Issue
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SLUG: ${{ steps.meta.outputs.slug }}
           VERSIONS: ${{ steps.meta.outputs.versions }}
         run: |
-          gh pr create \
+          gh issue create \
             --title "blog: chironpy $VERSIONS release post" \
-            --body-file /tmp/pr_body.md \
-            --base main \
-            --head "blog/$SLUG"
+            --body-file /tmp/issue_body.md

@@ -32,8 +32,14 @@ Update to chironpy 0.28.2 via pip:
 pip install --upgrade chironpy
 ```
 
+## About chironpy
+
+chironpy is Chiron's open source Python library for processing and analysing endurance activity data. It standardises inputs from FIT, GPX, TCX, and Strava into a unified structure with 1Hz time-series data, and handles the metrics and resampling that power Chiron's training analysis.
+
+Open source is how we give back to the endurance sports data science community. If you work with running or cycling data in Python, <a href="https://chironpy.chironapp.com/">check it out</a>.
+
 ## Links
 
-- [chironpy](https://chironapp.github.io/chironpy/)
-- [Changelog](https://chironapp.github.io/chironpy/changelog/)
+- [chironpy](https://chironpy.chironapp.com/)
+- [Changelog](https://chironpy.chironapp.com/changelog/)
 - [PyPI Package](https://pypi.org/project/chironpy/)

@@ -1,0 +1,77 @@
+name: Generate chironpy release blog post
+
+on:
+  workflow_dispatch:
+    inputs:
+      versions:
+        description: 'Version(s) to cover — e.g. "v0.3.0" or "v0.3.0 - v0.3.1". Leave blank for latest chironpy release.'
+        required: false
+        default: ''
+      extra_context:
+        description: 'Optional extra context for the agent (e.g. emphasis, caveats, migration notes)'
+        required: false
+        default: ''
+
+jobs:
+  create-blog-pr:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve version and metadata
+        id: meta
+        env:
+          INPUT_VERSIONS: ${{ inputs.versions }}
+        run: |
+          set -e
+          if [ -n "$INPUT_VERSIONS" ]; then
+            VERSIONS="$INPUT_VERSIONS"
+          else
+            VERSIONS=$(curl -sf "https://api.github.com/repos/chironapp/chironpy/releases/latest" | jq -r '.tag_name')
+            if [ -z "$VERSIONS" ] || [ "$VERSIONS" = "null" ]; then
+              echo "::error::Could not determine latest chironpy release. Provide versions manually."
+              exit 1
+            fi
+          fi
+          FIRST_VER=$(echo "$VERSIONS" | awk '{print $1}')
+          SLUG="chironpy-$(echo "$FIRST_VER" | sed 's/^v//' | tr '.' '-')"
+          DATE=$(date +%Y-%m-%d)
+          echo "versions=$VERSIONS" >> $GITHUB_OUTPUT
+          echo "slug=$SLUG" >> $GITHUB_OUTPUT
+          echo "date=$DATE" >> $GITHUB_OUTPUT
+
+      - name: Generate stub file and PR body
+        env:
+          VERSIONS: ${{ steps.meta.outputs.versions }}
+          PUB_DATE: ${{ steps.meta.outputs.date }}
+          SLUG: ${{ steps.meta.outputs.slug }}
+          EXTRA_CONTEXT: ${{ inputs.extra_context }}
+        run: python3 .github/scripts/create_blog_pr_files.py
+
+      - name: Commit and push branch
+        env:
+          SLUG: ${{ steps.meta.outputs.slug }}
+          VERSIONS: ${{ steps.meta.outputs.versions }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "blog/$SLUG"
+          git add "src/content/blog/$SLUG"
+          git commit -m "chore: stub blog post for chironpy $VERSIONS"
+          git push origin "blog/$SLUG"
+
+      - name: Open PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLUG: ${{ steps.meta.outputs.slug }}
+          VERSIONS: ${{ steps.meta.outputs.versions }}
+        run: |
+          gh pr create \
+            --title "blog: chironpy $VERSIONS release post" \
+            --body-file /tmp/pr_body.md \
+            --base main \
+            --head "blog/$SLUG"

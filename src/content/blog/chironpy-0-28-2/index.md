@@ -10,18 +10,9 @@ chironpy 0.28.2 brings support for enhanced FIT file fields and improved documen
 
 ## Enhanced FIT Field Support
 
-Garmin devices now record `enhanced_speed` and `enhanced_altitude` in their FIT files, providing higher-resolution data than legacy fields. This release adds both fields to the `DataTypeEnum`, allowing chironpy to correctly parse and process modern Garmin activity files.
+Garmin devices now record `enhanced_speed` and `enhanced_altitude` in their FIT files, providing higher-resolution data than legacy fields. This release adds both fields to the `DataTypeEnum`, allowing chironpy to correctly parse modern Garmin activity files. These enhanced fields are automatically normalized into the standard `WorkoutData` columns (`speed`, `altitude`) during processing.
 
 The library's example configuration has been updated to reflect this change. The Osaka Marathon 2025 dataset now references the correct column names (`enhanced_speed`, `enhanced_altitude`) in `examples/index.yml`, ensuring consistent data handling across workflows.
-
-```python
-from chironpy import WorkoutData
-
-# Enhanced fields are now automatically recognized
-workout = WorkoutData.from_file("garmin_activity.fit")
-# Access enhanced_speed and enhanced_altitude like any other column
-print(workout[['enhanced_speed', 'enhanced_altitude']].head())
-```
 
 ## Improved Developer Experience
 
@@ -43,6 +34,6 @@ pip install --upgrade chironpy
 
 ## Links
 
+- [chironpy](https://chironapp.github.io/chironpy/)
 - [Changelog](https://chironapp.github.io/chironpy/changelog/)
-- [GitHub Repository](https://github.com/chironapp/chironpy)
 - [PyPI Package](https://pypi.org/project/chironpy/)

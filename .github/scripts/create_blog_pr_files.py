@@ -1,5 +1,5 @@
 """
-Creates the blog post stub file and PR body for a chironpy release.
+Creates the issue body for a chironpy release blog post.
 Called by the generate-chironpy-blog-post.yml workflow.
 
 Env vars:
@@ -20,20 +20,18 @@ EXTRA_CONTEXT = os.environ.get("EXTRA_CONTEXT", "").strip() or "None"
 CHANGELOG_URL = "https://raw.githubusercontent.com/chironapp/chironpy/main/docs/changelog.md"
 CHIRONPY_REPO = "https://github.com/chironapp/chironpy"
 
-# ── 1. Create stub index.md ──────────────────────────────────────────────────
+# ── Write issue body (agent instructions) ────────────────────────────────────
 
-stub_dir = pathlib.Path(f"src/content/blog/{SLUG}")
-stub_index = stub_dir / "index.md"
+issue_body = f"""\
+# chironpy Release Blog Post Generator
 
-if stub_index.exists():
-    raise SystemExit(
-        f"::error::Stub file already exists: {stub_index}. "
-        "Delete it first or choose a different slug to avoid overwriting an existing post."
-    )
+You are generating a blog post for the Chiron marketing website (chironapp.com/blog).
 
-stub_dir.mkdir(parents=True, exist_ok=True)
+**Your task:** create `src/content/blog/{SLUG}/index.md` with the frontmatter and full post body, then open a pull request to `main`.
 
-stub = f"""\
+Use this frontmatter skeleton:
+
+```markdown
 ---
 title: ""
 description: ""
@@ -41,19 +39,7 @@ pubDate: {PUB_DATE}
 image: "/images/chironpy-release-cover.svg"
 tags: ["chironpy", "open-source"]
 ---
-"""
-
-stub_index.write_text(stub)
-print(f"Wrote stub: {stub_index}")
-
-# ── 2. Write PR body (agent instructions) ────────────────────────────────────
-
-pr_body = f"""\
-# chironpy Release Blog Post Generator
-
-You are generating a blog post for the Chiron marketing website (chironapp.com/blog).
-
-**Your task:** populate `src/content/blog/{SLUG}/index.md` — the stub file already exists with the frontmatter skeleton. Fill in the empty frontmatter fields and write the full body below the `---` closing delimiter.
+```
 
 ---
 
@@ -66,7 +52,7 @@ Write in clear, technical third-person. Direct and factual — written for pract
 ## Release details
 
 - **Version(s):** {VERSIONS}
-- **pubDate:** {PUB_DATE} *(already set in the stub — do not change)*
+- **pubDate:** {PUB_DATE}
 - **Extra context:** {EXTRA_CONTEXT}
 
 ---
@@ -95,7 +81,7 @@ Do not invent features not present in the changelog.
 
 ## Output format
 
-Fill in the frontmatter fields in the stub:
+Fill in the frontmatter fields and write the body:
 
 ```markdown
 ---
@@ -119,5 +105,5 @@ tags: ["chironpy", "open-source"]
 Keep the post between 400–700 words. No em-dash padding. No bullet-point walls.
 """
 
-pathlib.Path("/tmp/pr_body.md").write_text(pr_body)
-print("Wrote PR body: /tmp/pr_body.md")
+pathlib.Path("/tmp/issue_body.md").write_text(issue_body)
+print("Wrote issue body: /tmp/issue_body.md")

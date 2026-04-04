@@ -2,7 +2,7 @@
 title: "chironpy 0.29 — FIT File Merge Support and 1Hz Resampling"
 description: "chironpy 0.29 adds WorkoutData.merge_many() for combining FIT files, with configurable gap handling and automatic 1Hz resampling for Python endurance data."
 pubDate: 2026-04-04
-image: "/images/chironpy-release-cover.svg"
+image: "/images/chironpy-release-cover.jpg"
 tags: ["chironpy", "open-source", "tools"]
 ---
 

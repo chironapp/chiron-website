@@ -30,11 +30,13 @@ The `distance` column is forward-filled across gap rows in merged workouts. Dist
 workout.set_start_time("2026-04-04 10:00:00")
 ```
 
-## Example Files and Notebooks
+## Documentation and Examples
 
 Three new Strava activity-stream example files demonstrate a single session split across three recordings: `strava_17497731832_warm_up.json`, `strava_17497955000_track_workout.json`, and `strava_17498168651_warm_down.json`.
 
-A new `lab/merge_workouts.ipynb` notebook demonstrates `merge_many()`, `merge()`, and `set_start_time()` using these example files.
+The documentation now includes `docs/features/merge_workouts.ipynb`, an interactive notebook demonstrating `merge_many()`, `merge()`, and `set_start_time()` with these example files. A separate `docs/Example.ipynb` walks through analysing a workout from the Osaka Marathon 2025.
+
+For developers looking to contribute or fork the project, a new `lab/` environment provides Jupyter notebooks for rapid prototyping and local development.
 
 ## Build System Update
 

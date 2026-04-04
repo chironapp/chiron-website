@@ -52,7 +52,7 @@ pip install --upgrade chironpy
 
 ## About chironpy
 
-chironpy is Chiron's free and open source Python library for processing and analysing endurance activity data. It standardises inputs from FIT, GPX, TCX, and Strava into a unified structure with 1Hz time-series data. It provides tools like best-effort intervals, elevation and grade analysis, training zone distribution, power metrics (WAP, stress score, W/kg), training stress and rolling/resampling tools — some of the same tooling used to power Chiron's analytics.
+chironpy is [Chiron](https://www.chironapp.com/)'s free and open source Python library for processing and analysing endurance activity data. It standardises inputs from FIT, GPX, TCX, and Strava into a unified structure with 1Hz time-series data. It provides tools like best-effort intervals, elevation and grade analysis, training zone distribution, power metrics (WAP, stress score, W/kg), training stress and rolling/resampling tools — some of the same tooling used to power [Chiron's analytics](https://www.chironapp.com/).
 
 Open source is how we give back to the endurance sports data science community. If you work with running or cycling data in Python, <a href="https://chironpy.chironapp.com/">check it out</a>.
 

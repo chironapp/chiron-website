@@ -22,6 +22,7 @@ CHIRONPY_REPO = "https://github.com/chironapp/chironpy"
 CHIRONPY_DOCS = "https://chironpy.chironapp.com/"
 CHIRONPY_DOCS_CHANGELOG = f"{CHIRONPY_DOCS}changelog/"
 CHIRONPY_PYPI = "https://pypi.org/project/chironpy/"
+CHIRONAPP_URL = "https://chironapp.com/"
 
 # ── Write issue body (agent instructions) ────────────────────────────────────
 
@@ -105,7 +106,7 @@ tags: ["chironpy", "open-source"]
 3. **Upgrade** — brief instructions: `pip install --upgrade chironpy`
 4. **About chironpy** — include this section verbatim:
 
-   > chironpy is Chiron's free and open source Python library for processing and analysing endurance activity data. It standardises inputs from FIT, GPX, TCX, and Strava into a unified structure with 1Hz time-series data. It provides tools like best-effort intervals, elevation and grade analysis, training zone distribution, power metrics (WAP, stress score, W/kg), training stress and rolling/resampling tools — some of the same tooling used to power Chiron's analytics.
+   > chironpy is [Chiron]({CHIRONAPP_URL})'s free and open source Python library for processing and analysing endurance activity data. It standardises inputs from FIT, GPX, TCX, and Strava into a unified structure with 1Hz time-series data. It provides tools like best-effort intervals, elevation and grade analysis, training zone distribution, power metrics (WAP, stress score, W/kg), training stress and rolling/resampling tools — some of the same tooling used to power [Chiron's analytics]({CHIRONAPP_URL}).
    >
    > Open source is how we give back to the endurance sports data science community. If you work with running or cycling data in Python, [check it out]({CHIRONPY_DOCS}).
 

@@ -5,7 +5,6 @@ Called by the generate-chironpy-blog-post.yml workflow.
 Env vars:
   VERSIONS      — resolved version string, e.g. "v0.3.0" or "v0.3.0 - v0.3.1"
   PUB_DATE      — ISO date string, e.g. "2026-04-03"
-  SLUG          — directory slug, e.g. "chironpy-0-3-0"
   EXTRA_CONTEXT — optional free-text context from the workflow trigger
 """
 
@@ -14,11 +13,15 @@ import pathlib
 
 VERSIONS = os.environ["VERSIONS"]
 PUB_DATE = os.environ["PUB_DATE"]
-SLUG = os.environ["SLUG"]
 EXTRA_CONTEXT = os.environ.get("EXTRA_CONTEXT", "").strip() or "None"
 
-CHANGELOG_URL = "https://raw.githubusercontent.com/chironapp/chironpy/main/docs/changelog.md"
+CHANGELOG_URL = (
+    "https://raw.githubusercontent.com/chironapp/chironpy/main/docs/changelog.md"
+)
 CHIRONPY_REPO = "https://github.com/chironapp/chironpy"
+CHIRONPY_DOCS = "https://chironpy.chironapp.com/"
+CHIRONPY_DOCS_CHANGELOG = f"{CHIRONPY_DOCS}changelog/"
+CHIRONPY_PYPI = "https://pypi.org/project/chironpy/"
 
 # ── Write issue body (agent instructions) ────────────────────────────────────
 
@@ -27,7 +30,7 @@ issue_body = f"""\
 
 You are generating a blog post for the Chiron marketing website (chironapp.com/blog).
 
-**Your task:** create `src/content/blog/{SLUG}/index.md` with the frontmatter and full post body, then open a pull request to `main`.
+**Your task:** derive the directory slug from the **last** version covered (e.g. `v0.3.1` → `chironpy-0-3-1`), create `src/content/blog/<slug>/index.md` with the frontmatter and full post body, then open a pull request to `main`.
 
 Use this frontmatter skeleton:
 
@@ -102,11 +105,11 @@ tags: ["chironpy", "open-source"]
 3. **Upgrade** — brief instructions: `pip install --upgrade chironpy`
 4. **About chironpy** — include this section verbatim:
 
-   > chironpy is Chiron's open source Python library for processing and analysing endurance activity data. It standardises inputs from FIT, GPX, TCX, and Strava into a unified structure with 1Hz time-series data, and handles the metrics and resampling that power Chiron's training analysis.
+   > chironpy is Chiron's free and open source Python library for processing and analysing endurance activity data. It standardises inputs from FIT, GPX, TCX, and Strava into a unified structure with 1Hz time-series data. It provides tools like best-effort intervals, elevation and grade analysis, training zone distribution, power metrics (WAP, stress score, W/kg), training stress and rolling/resampling tools — some of the same tooling used to power Chiron's analytics.
    >
-   > Open source is how we give back to the endurance sports data science community. If you work with running or cycling data in Python, [check it out](https://chironpy.chironapp.com/).
+   > Open source is how we give back to the endurance sports data science community. If you work with running or cycling data in Python, [check it out]({CHIRONPY_DOCS}).
 
-5. **Links** — changelog (https://chironpy.chironapp.com/changelog/), GitHub ({CHIRONPY_REPO}), PyPI (https://pypi.org/project/chironpy/)
+5. **Links** — docs ({CHIRONPY_DOCS}), changelog ({CHIRONPY_DOCS_CHANGELOG}), PyPI ({CHIRONPY_PYPI}), GitHub ({CHIRONPY_REPO})
 
 Keep the post between 400–700 words. No em-dash padding. No bullet-point walls.
 """

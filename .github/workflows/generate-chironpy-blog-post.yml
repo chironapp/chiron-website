@@ -6,11 +6,11 @@ on:
       versions:
         description: 'Version(s) to cover — e.g. "v0.3.0" or "v0.3.0 - v0.3.1". Leave blank for latest chironpy release.'
         required: false
-        default: ''
+        default: ""
       extra_context:
-        description: 'Optional extra context for the agent (e.g. emphasis, caveats, migration notes)'
+        description: "Optional extra context for the agent (e.g. emphasis, caveats, migration notes)"
         required: false
-        default: ''
+        default: ""
 
 jobs:
   create-blog-issue:
@@ -37,18 +37,14 @@ jobs:
               exit 1
             fi
           fi
-          FIRST_VER=$(echo "$VERSIONS" | awk '{print $1}')
-          SLUG="chironpy-$(echo "$FIRST_VER" | sed 's/^v//' | tr '.' '-')"
           DATE=$(date +%Y-%m-%d)
           echo "versions=$VERSIONS" >> $GITHUB_OUTPUT
-          echo "slug=$SLUG" >> $GITHUB_OUTPUT
           echo "date=$DATE" >> $GITHUB_OUTPUT
 
       - name: Generate issue body
         env:
           VERSIONS: ${{ steps.meta.outputs.versions }}
           PUB_DATE: ${{ steps.meta.outputs.date }}
-          SLUG: ${{ steps.meta.outputs.slug }}
           EXTRA_CONTEXT: ${{ inputs.extra_context }}
         run: python3 .github/scripts/create_blog_pr_files.py
 

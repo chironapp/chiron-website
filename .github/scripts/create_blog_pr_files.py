@@ -40,7 +40,7 @@ title: ""
 description: ""
 pubDate: {PUB_DATE}
 image: "/images/chironpy-release-cover.svg"
-tags: ["chironpy", "open-source"]
+tags: ["chironpy", "open-source", "tools"]
 ---
 ```
 

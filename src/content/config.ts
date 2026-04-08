@@ -28,7 +28,13 @@ const trainingCollection = defineCollection({
     }),
 });
 
+const legalCollection = defineCollection({
+  type: "content",
+  schema: z.object({}),
+});
+
 export const collections = {
   blog: blogCollection,
   training: trainingCollection,
+  legal: legalCollection,
 };

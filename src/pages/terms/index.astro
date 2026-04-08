@@ -1,0 +1,22 @@
+---
+import { getEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const entry = await getEntry('legal', 'terms/latest');
+const { Content } = await entry.render();
+---
+
+<BaseLayout
+  title="Terms of Use - Chiron"
+  description="Read the Chiron Terms of Use to understand the rules and guidelines for using our services."
+>
+  <section class="py-20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="prose prose-lg prose-primary max-w-none">
+        <div class="bg-white rounded-lg shadow-md p-8">
+          <Content />
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

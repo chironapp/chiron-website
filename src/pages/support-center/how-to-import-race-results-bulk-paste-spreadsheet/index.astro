@@ -127,7 +127,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 
         <div class="mt-6 space-y-2 text-gray-700 text-sm bg-gray-50 rounded-lg p-4">
           <p><strong>Distance values</strong> can be entered as metres (e.g. <code class="font-mono bg-white px-1 rounded">21097</code>) or as a recognised label (<code class="font-mono bg-white px-1 rounded">Half Marathon</code>, <code class="font-mono bg-white px-1 rounded">5K</code>, <code class="font-mono bg-white px-1 rounded">Marathon</code>, etc.).</p>
-          <p><strong>Time values</strong> should be in <code class="font-mono bg-white px-1 rounded">HH:MM:SS</code> or <code class="font-mono bg-white px-1 rounded">MM:SS</code> format.</p>
+          <p><strong>Time values</strong> should be either an integer in seconds, <code class="font-mono bg-white px-1 rounded">HH:MM:SS</code>, or <code class="font-mono bg-white px-1 rounded">MM:SS</code> format.</p>
           <p><strong>Date values</strong> should be <code class="font-mono bg-white px-1 rounded">YYYY-MM-DD</code> or <code class="font-mono bg-white px-1 rounded">DD/MM/YYYY</code> — if Chiron reads day and month the wrong way around, use the <strong>Swap day/month</strong> button.</p>
         </div>
 
@@ -166,7 +166,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
           <figure class="text-center">
             <img
-              src="/images/support-center/how-to-import-race-results-bulk-paste-spreadsheet/chiron-paste-race-results-how-to-use.png"
+              src="/images/support-center/how-to-import-race-results-bulk-paste-spreadsheet/chiron-paste-race-results-preview-table.png"
               alt="The Paste Race Results screen in Chiron showing the From Clipboard button and the paste area"
               class="rounded-lg border border-gray-200 shadow-sm mx-auto max-w-xs"
             />
@@ -174,7 +174,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
           </figure>
           <figure class="text-center">
             <img
-              src="/images/support-center/how-to-import-race-results-bulk-paste-spreadsheet/chiron-paste-race-results-preview-table.png"
+            src="/images/support-center/how-to-import-race-results-bulk-paste-spreadsheet/chiron-paste-race-results-how-to-use.png"
               alt="The Paste Race Results preview table in Chiron, showing parsed race results with orange warning banners for unrecognised columns"
               class="rounded-lg border border-gray-200 shadow-sm mx-auto max-w-xs"
             />

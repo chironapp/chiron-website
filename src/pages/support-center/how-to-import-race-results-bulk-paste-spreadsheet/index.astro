@@ -1,0 +1,276 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="How to Import Race Results in Bulk — Chiron Support"
+  description="Learn how to import your full race history into Chiron in minutes by copying and pasting from any spreadsheet — Google Sheets, Excel, or Numbers."
+>
+  <section class="py-20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <nav class="text-sm text-gray-500 mb-8">
+        <a href="/support-center" class="hover:text-primary-600">Support Center</a>
+        <span class="mx-2">›</span>
+        <span class="text-gray-700">Import Race Results in Bulk</span>
+      </nav>
+
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        How to Import Race Results in Bulk Using Paste Race Results
+      </h1>
+      <p class="text-xl text-gray-600 mb-12">
+        Chiron lets you import a full history of race results from any spreadsheet in one go — perfect for athletes who have years of results in tools like Athlinks, Strava bulk export, or their own tracking sheets.
+      </p>
+
+      <!-- 1. How to open the feature -->
+      <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">1. How to Open the Feature</h2>
+        <p class="text-gray-700 mb-4">
+          Navigate to the <strong>Schedule</strong> tab, tap the <strong>＋ Add</strong> button, then select <strong>Import → Import Race Results</strong>.
+        </p>
+        <figure class="mt-6">
+          <img
+            src="/images/support-center/how-to-import-race-results-bulk-paste-spreadsheet/chiron-import-race-results-schedule-add-menu.png"
+            alt="The Schedule tab Add menu in Chiron, showing the Import option to access Import Race Results"
+            class="rounded-lg border border-gray-200 shadow-sm mx-auto max-w-xs"
+          />
+          <figcaption class="text-sm text-gray-500 mt-2 text-center">Schedule → ＋ Add → Import → Import Race Results</figcaption>
+        </figure>
+      </div>
+
+      <!-- 2. Prepare your spreadsheet -->
+      <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">2. Prepare Your Spreadsheet</h2>
+        <ul class="space-y-3 text-gray-700 mb-6">
+          <li class="flex items-start">
+            <span class="text-primary-600 mr-2 mt-1">•</span>
+            <span>Works with <strong>Google Sheets, Excel, Numbers</strong>, or any tab-separated data.</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary-600 mr-2 mt-1">•</span>
+            <span>The <strong>first row must be column headers</strong>.</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary-600 mr-2 mt-1">•</span>
+            <span>Column names are <strong>case-insensitive and flexible</strong> — see the table below for accepted names.</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary-600 mr-2 mt-1">•</span>
+            <span>You don't need every column — only the four <strong>required</strong> ones.</span>
+          </li>
+        </ul>
+
+        <h3 class="text-lg font-semibold text-gray-900 mb-3">Column Reference</h3>
+        <div class="overflow-x-auto">
+          <table class="min-w-full text-sm text-gray-700 border border-gray-200 rounded-lg">
+            <thead class="bg-gray-50">
+              <tr>
+                <th class="px-4 py-3 text-left font-semibold text-gray-900 border-b border-gray-200">Field</th>
+                <th class="px-4 py-3 text-left font-semibold text-gray-900 border-b border-gray-200">Required</th>
+                <th class="px-4 py-3 text-left font-semibold text-gray-900 border-b border-gray-200">Accepted Column Header Names</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              <tr class="bg-white">
+                <td class="px-4 py-3 font-medium">Title</td>
+                <td class="px-4 py-3 text-green-600 font-semibold">✅ Required</td>
+                <td class="px-4 py-3 font-mono text-xs"><code>title</code>, <code>name</code>, <code>event name</code>, <code>eventname</code>, <code>race name</code>, <code>racename</code></td>
+              </tr>
+              <tr class="bg-gray-50">
+                <td class="px-4 py-3 font-medium">Event Date</td>
+                <td class="px-4 py-3 text-green-600 font-semibold">✅ Required</td>
+                <td class="px-4 py-3 font-mono text-xs"><code>date</code>, <code>event date</code>, <code>eventdate</code>, <code>race date</code>, <code>racedate</code></td>
+              </tr>
+              <tr class="bg-white">
+                <td class="px-4 py-3 font-medium">Finish Time</td>
+                <td class="px-4 py-3 text-green-600 font-semibold">✅ Required</td>
+                <td class="px-4 py-3 font-mono text-xs"><code>finish time</code>, <code>finishtime</code>, <code>time</code>, <code>gun time</code>, <code>guntime</code>, <code>gun finish time</code>, <code>clock time</code>, <code>clocktime</code>, <code>result</code></td>
+              </tr>
+              <tr class="bg-gray-50">
+                <td class="px-4 py-3 font-medium">Distance</td>
+                <td class="px-4 py-3 text-green-600 font-semibold">✅ Required</td>
+                <td class="px-4 py-3 font-mono text-xs"><code>distance</code>, <code>event distance</code>, <code>eventdistance</code>, <code>race distance</code>, <code>racedistance</code></td>
+              </tr>
+              <tr class="bg-white">
+                <td class="px-4 py-3 font-medium">Net Finish Time</td>
+                <td class="px-4 py-3 text-gray-500">Optional</td>
+                <td class="px-4 py-3 font-mono text-xs"><code>net finish time</code>, <code>netfinishtime</code>, <code>net time</code>, <code>nettime</code>, <code>chip time</code>, <code>chiptime</code>, <code>personaltime</code></td>
+              </tr>
+              <tr class="bg-gray-50">
+                <td class="px-4 py-3 font-medium">Overall Position</td>
+                <td class="px-4 py-3 text-gray-500">Optional</td>
+                <td class="px-4 py-3 font-mono text-xs"><code>position</code>, <code>overall position</code>, <code>overallposition</code>, <code>overall</code>, <code>finish position</code>, <code>finishposition</code>, <code>rank</code></td>
+              </tr>
+              <tr class="bg-white">
+                <td class="px-4 py-3 font-medium">Sex / Gender Position</td>
+                <td class="px-4 py-3 text-gray-500">Optional</td>
+                <td class="px-4 py-3 font-mono text-xs"><code>sex category position</code>, <code>sexcategoryposition</code>, <code>sex position</code>, <code>gender position</code>, <code>genderposition</code>, <code>sex place</code>, <code>genderrank</code></td>
+              </tr>
+              <tr class="bg-gray-50">
+                <td class="px-4 py-3 font-medium">Age Category Position</td>
+                <td class="px-4 py-3 text-gray-500">Optional</td>
+                <td class="px-4 py-3 font-mono text-xs"><code>age category position</code>, <code>agecategoryposition</code>, <code>age position</code>, <code>ageposition</code>, <code>age place</code>, <code>age group position</code>, <code>rankincategory</code></td>
+              </tr>
+              <tr class="bg-white">
+                <td class="px-4 py-3 font-medium">Result URL</td>
+                <td class="px-4 py-3 text-gray-500">Optional</td>
+                <td class="px-4 py-3 font-mono text-xs"><code>result url</code>, <code>resulturl</code>, <code>results url</code>, <code>resultsurl</code>, <code>result link</code>, <code>resultlink</code>, <code>official result</code>, <code>source</code></td>
+              </tr>
+              <tr class="bg-gray-50">
+                <td class="px-4 py-3 font-medium">Description / Notes</td>
+                <td class="px-4 py-3 text-gray-500">Optional</td>
+                <td class="px-4 py-3 font-mono text-xs"><code>description</code>, <code>notes</code>, <code>comments</code>, <code>note</code></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="mt-6 space-y-2 text-gray-700 text-sm bg-gray-50 rounded-lg p-4">
+          <p><strong>Distance values</strong> can be entered as metres (e.g. <code class="font-mono bg-white px-1 rounded">21097</code>) or as a recognised label (<code class="font-mono bg-white px-1 rounded">Half Marathon</code>, <code class="font-mono bg-white px-1 rounded">5K</code>, <code class="font-mono bg-white px-1 rounded">Marathon</code>, etc.).</p>
+          <p><strong>Time values</strong> should be in <code class="font-mono bg-white px-1 rounded">HH:MM:SS</code> or <code class="font-mono bg-white px-1 rounded">MM:SS</code> format.</p>
+          <p><strong>Date values</strong> should be <code class="font-mono bg-white px-1 rounded">YYYY-MM-DD</code> or <code class="font-mono bg-white px-1 rounded">DD/MM/YYYY</code> — if Chiron reads day and month the wrong way around, use the <strong>Swap day/month</strong> button.</p>
+        </div>
+
+        <figure class="mt-6">
+          <img
+            src="/images/support-center/how-to-import-race-results-bulk-paste-spreadsheet/chiron-race-results-spreadsheet-column-format.png"
+            alt="Example spreadsheet showing the correct column layout for importing race results into Chiron"
+            class="rounded-lg border border-gray-200 shadow-sm mx-auto max-w-xs"
+          />
+          <figcaption class="text-sm text-gray-500 mt-2 text-center">Example spreadsheet with the correct column layout</figcaption>
+        </figure>
+      </div>
+
+      <!-- 3. Paste and preview -->
+      <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">3. Paste and Preview</h2>
+        <ol class="space-y-4 text-gray-700 mb-6">
+          <li class="flex">
+            <span class="font-bold text-primary-600 mr-3">1.</span>
+            <span>Select all rows in your spreadsheet (including the header row) and copy.</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold text-primary-600 mr-3">2.</span>
+            <span>In Chiron, tap <strong>From Clipboard</strong> — or tap the text area and paste manually.</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold text-primary-600 mr-3">3.</span>
+            <span>Chiron immediately parses the data and shows a live <strong>Preview</strong> table.</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold text-primary-600 mr-3">4.</span>
+            <span>Any <strong>unrecognised column names</strong> appear in an orange warning banner — they are ignored, not an error.</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold text-primary-600 mr-3">5.</span>
+            <span>If <strong>required columns are missing</strong>, a red error banner lists which ones.</span>
+          </li>
+          <li class="flex">
+            <span class="font-bold text-primary-600 mr-3">6.</span>
+            <span>If dates look like they're day/month-swapped, tap <strong>Swap day/month</strong>.</span>
+          </li>
+        </ol>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+          <figure class="text-center">
+            <img
+              src="/images/support-center/how-to-import-race-results-bulk-paste-spreadsheet/chiron-paste-race-results-how-to-use.png"
+              alt="The Paste Race Results screen in Chiron showing the From Clipboard button and the paste area"
+              class="rounded-lg border border-gray-200 shadow-sm mx-auto max-w-xs"
+            />
+            <figcaption class="text-sm text-gray-500 mt-2">Paste Race Results — paste area and From Clipboard button</figcaption>
+          </figure>
+          <figure class="text-center">
+            <img
+              src="/images/support-center/how-to-import-race-results-bulk-paste-spreadsheet/chiron-paste-race-results-preview-table.png"
+              alt="The Paste Race Results preview table in Chiron, showing parsed race results with orange warning banners for unrecognised columns"
+              class="rounded-lg border border-gray-200 shadow-sm mx-auto max-w-xs"
+            />
+            <figcaption class="text-sm text-gray-500 mt-2">Live preview table with orange warnings for unrecognised columns</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- 4. Confirm and import -->
+      <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">4. Confirm and Import</h2>
+        <p class="text-gray-700 mb-4">
+          Tap <strong>Next</strong> to move to the <strong>Confirm Import</strong> screen.
+        </p>
+        <ul class="space-y-3 text-gray-700 mb-6">
+          <li class="flex items-start">
+            <span class="text-primary-600 mr-2 mt-1">•</span>
+            <span>Each result is listed with its date, title, distance, and times.</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary-600 mr-2 mt-1">•</span>
+            <span>Results that <strong>conflict with an existing event on the same date</strong> are flagged with a warning and deselected by default — you can still choose to include them.</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary-600 mr-2 mt-1">•</span>
+            <span>Chiron automatically tries to <strong>match each result to a workout</strong> on your schedule for the same date and distance. Tap <strong>Change</strong> next to any result to pick a different workout, or leave it unlinked.</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary-600 mr-2 mt-1">•</span>
+            <span>Toggle the checkbox next to any result to include or exclude it.</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary-600 mr-2 mt-1">•</span>
+            <span>Tap <strong>Import <em>N</em> Results</strong> to save. Chiron adds the selected results as completed race events on your schedule.</span>
+          </li>
+        </ul>
+
+        <figure class="mt-6">
+          <img
+            src="/images/support-center/how-to-import-race-results-bulk-paste-spreadsheet/chiron-confirm-import-race-results-workout-matching.png"
+            alt="The Confirm Import screen in Chiron showing race results with workout matching options"
+            class="rounded-lg border border-gray-200 shadow-sm mx-auto max-w-xs"
+          />
+          <figcaption class="text-sm text-gray-500 mt-2 text-center">Confirm Import — review results and match to workouts before saving</figcaption>
+        </figure>
+      </div>
+
+      <!-- 5. Tips -->
+      <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Tips</h2>
+        <ul class="space-y-3 text-gray-700">
+          <li class="flex items-start">
+            <span class="text-primary-600 mr-2 mt-1">•</span>
+            <span>You can import up to <strong>100 results</strong> per paste. The preview truncates at 100 but the counter shows the full total.</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary-600 mr-2 mt-1">•</span>
+            <span>Chiron only checks for conflicts on the date — importing the same result twice on the same date will be flagged.</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-primary-600 mr-2 mt-1">•</span>
+            <span>After import, results appear on your <strong>Schedule</strong> and count toward your <strong>Insights</strong>.</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Back / Contact -->
+      <div class="bg-gray-50 rounded-lg p-8 text-center">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Need More Help?</h2>
+        <p class="text-gray-600 mb-6">
+          Can't find what you're looking for? Get in touch with our team.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="/support-center"
+            class="inline-block bg-white border border-primary-600 text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-primary-50 transition-colors"
+          >
+            Back to Support Center
+          </a>
+          <a
+            href="/support-center/contact"
+            class="inline-block bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors"
+          >
+            Contact Us
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</BaseLayout>

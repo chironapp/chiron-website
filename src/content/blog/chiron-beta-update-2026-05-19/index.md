@@ -1,53 +1,52 @@
 ---
-title: "Building in Closed Beta: What Chiron's First Athletes Are Testing"
+title: "Building in beta: What Chiron's First Athletes Are Testing"
 pubDate: 2026-05-19
 tags: ["updates", "beta", "athletes"]
-description: "Chiron is in closed beta with a small group of competitive runners. Here's what we've been building and why we're starting with athletes before coaches."
+description: "Chiron is in beta with a small group of competitive runners. Here's what we've been building and why we're starting with athletes before coaches."
+image: "./chiron-beta-athletes-training-schedule-app.jpg"
 ---
 
 Plan - Adapt - Perform.
 
-That slogan isn't aspirational. It describes the sequence we're working to validate in closed beta right now, with a small group of competitive Australian runners putting Chiron through its paces.
+That slogan isn't aspirational. It describes the sequence we're working to validate in beta right now, with a small group of competitive Australian runners putting Chiron through its paces.
 
-This isn't a press release. It's a practical update on what we've shipped, what's working, and where we're headed.
+This is an update on what we've shipped, what's working, and where we're headed.
 
 ## Where We Are
 
-Chiron is in closed beta. A small group of competitive runners — people who take their training seriously — have access via invitation and are testing the core athlete experience on iOS. No general waitlist opens have happened. We're not at that stage yet.
+Chiron is in beta. A small group of competitive runners — people who take their training seriously — have access via invitation and are testing the core athlete experience on iOS. No general launch has happened.
 
-The reason for keeping the group tight is deliberate. The athlete-facing product needs to earn trust before we add coach tools on top. Coaches will assign this to their athletes. If the athlete experience isn't solid, the whole thing falls over regardless of what the coaching interface looks like.
+The athlete-facing product has to earn trust before coaches can rely on it. Coaches will assign this to their athletes — if the experience isn't solid on the athlete side, it doesn't matter how good the coaching interface is. That's why we're validating the core athlete loop first, and why we're nearly ready to open to coaches.
 
 ## What We've Been Building
 
-The past several weeks have been the most productive of the project.
+The past several weeks have shipped more features than the preceding three months combined.
 
-**Onboarding** was the first major piece. Athletes who receive an invitation now move through a structured setup flow: personal details, a profile photo, connecting their Strava account, and setting a target event. The final screen confirms everything is in place. It's not flashy — it just gets someone from zero to a working account without hand-holding.
+**Onboarding** new athletes move through a structured setup flow — personal details, profile photo, Strava connection, and a target event. The onboarding gate means every athlete starts with a properly configured account rather than a half-built one.
 
-**Strava sync** is central to how Chiron works. Runs import automatically after a session, and a recent fix resolved an issue where some activity recordings weren't being associated correctly on import. The sync is more reliable as a result, which matters when training insights depend on data accuracy.
+**The home tab** has been refreshed into something closer to a heads-up display: everything an athlete needs to know — upcoming event, recent training, current load — visible in a single iPhone viewport without scrolling. It's the first thing you see when you open the app and it should earn that position.
 
-**Schedule and calendar accuracy** were addressed through a set of database migrations that corrected how workout dates are stored. Previously, timestamp precision was causing some activities to appear on the wrong day in the agenda. That's now fixed — planned workouts and completed activities sit where they're supposed to.
+**Workout detail and event details** both got a redesign — tapping a completed session now shows a structured summary with key metrics, a tabular breakdown, and a missed-workout banner when a scheduled run wasn't completed. The planned vs. completed story is readable at a glance. Events got the same treatment.
 
-**Workout detail** got a significant redesign. Tapping into a completed workout now shows a properly structured summary: key metrics clearly laid out, a tabular breakdown of the session, and a banner when a scheduled workout wasn't completed. For athletes comparing what they planned against what they actually ran, this screen now tells that story clearly.
+**Race results** can be imported in bulk from a spreadsheet, which matters for athletes who have years of results sitting in [Raceview](https://au.raceview.net/), [World Athletics](https://worldathletics.org/athletes), or their own tracking sheets. Add the columns, paste the data, and your result history is in Chiron. New race result records also capture gun time, chip time, finishing position, and result URL.
 
-**Performance insights** added a PB Progression card backed by your workout history — a view of how your times at key distances are trending over time. Alongside training volume totals and activity type breakdowns, it gives a real picture of whether the training block is moving in the right direction.
+**Performance insights** added a Personal Best Progression card: a clean view of how your times at key distances are trending across your training history. Combined with training volume totals and activity breakdowns, it's the first version of what progress tracking should look like in Chiron.
 
-**Push notifications and in-app messaging** shipped this week. When a coach sends a coaching request, the athlete receives a push notification that deep-links directly to the request. Workout comments are live — athletes and coaches can annotate completed workouts, and the relevant person is notified when a comment lands. There's a notifications screen on the home tab that collects all of this in one place. These features exist because training at this level is a conversation, not just data collection.
+**Notifications and workout comments** are the most significant recent addition. Push notifications are live for coaching requests and coaching status changes. Athletes and coaches can now comment directly on completed workouts, with push and email notifications when a comment lands. A notification screen on the home tab collects all of it. These features exist because training at this level is a conversation, not just data collection.
 
 ## Why Athletes First
 
-The sequencing is intentional.
+Chiron's long-term value is in the coach-athlete relationship. But that relationship only works if athletes actually want to use the app — if they trust Chiron with their training data and are willing to invest in keeping it current. A coach can only get value from what their athletes bring to it.
 
-Chiron's long-term value is in the coach-athlete relationship — a coach designing a training block, the athlete executing it, both reading from the same data. But that only works if the athlete product stands on its own. An athlete using Chiron without a coach attached should still get genuine value: a clear picture of their training, reliable Strava sync, and insights that reflect where their fitness actually is.
-
-Once we've validated that the core loop works — athlete onboards, syncs their training, sees meaningful feedback — the coach layer makes sense. Not before.
+The athlete product needs to earn that trust first. That's the bar we're holding the beta to.
 
 ## What's Next
 
-When the current athlete cohort has tested the core experience to a standard we're satisfied with, Chiron opens to coaches. Coach-athlete workflow, training assignment, and athlete monitoring. Australian market initially.
+When the current athlete cohort has tested the core athlete experience to a standard we're satisfied with, Chiron opens to coaches. Coach-athlete workflow, training assignment, and athlete monitoring. Australian market initially.
 
-If you're a competitive runner or coach and want to be notified when access opens more broadly, the waitlist is below. No fake urgency — we'll send one email when it's actually ready.
+If you're a competitive runner or coach and want to be notified when access opens, the waitlist is below.
 
 — Clive  
 Founder, Chiron
 
-[Join the beta waitlist →](/contact/)
+[Join the beta waitlist →](/)

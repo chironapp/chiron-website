@@ -34,12 +34,6 @@ The past several weeks have shipped more features than the preceding three month
 
 **Notifications and workout comments** are the most significant recent addition. Push notifications are live for coaching requests and coaching status changes. Athletes and coaches can now comment directly on completed workouts, with push and email notifications when a comment lands. A notification screen on the home tab collects all of it. These features exist because training at this level is a conversation, not just data collection.
 
-## Why Athletes First
-
-Chiron's long-term value is in the coach-athlete relationship. But that relationship only works if athletes actually want to use the app — if they trust Chiron with their training data and are willing to invest in keeping it current. A coach can only get value from what their athletes bring to it.
-
-The athlete product needs to earn that trust first. That's the bar we're holding the beta to.
-
 ## What's Next
 
 When the current athlete cohort has tested the core athlete experience to a standard we're satisfied with, Chiron opens to coaches. Coach-athlete workflow, training assignment, and athlete monitoring. Australian market initially.

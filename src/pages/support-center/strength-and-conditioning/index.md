@@ -16,7 +16,7 @@ Strength and conditioning isn't optional for competitive runners — it's what k
 
 ## Creating a strength workout in the Workout Library
 
-The Workout Library is the best starting point for any session you'll repeat — a gym circuit, a pre-run activation, a physio protocol.
+The Workout Library is the best starting point for any session you'll repeat — a gym circuit, a pre-run activation, a physio protocol. Learn about the [workout library here](/support-center/creating-your-workout-library).
 
 1. Navigate to the Library: **Schedule → Add → Workout Library**, or **More → Workout Library**.
 2. Tap **Create Workout** and set the activity type to **Strength** or **Physical Therapy**.
@@ -38,8 +38,6 @@ Tap the **"Add exercise – type or search…"** field at the top of the screen.
 1. **Plain text** — type the exercise as you'd write it in a training log, e.g. _RDL 4 x 8 @ 105kg_. The text is saved exactly as written. No category or muscle group data is attached unless you save it to the Exercise Library (see below).
 2. **From the Exercise Library** — start typing a name to search existing exercises. Select one to add it with its category and muscle group data already attached or create your own.
 
-Once added, tap **Add sets** on the exercise card to configure sets, reps, and load.
-
 <figure>
   <img
     src="/images/support-center/strength-and-conditioning/chiron-strength-exercise-card.png"
@@ -47,6 +45,16 @@ Once added, tap **Add sets** on the exercise card to configure sets, reps, and l
     class="rounded-lg border border-gray-200 shadow-sm mx-auto max-w-xs"
   />
   <figcaption class="text-sm text-gray-500 mt-2 text-center">Exercise card showing name, category, Add sets, drag handle, and menu</figcaption>
+</figure>
+
+Once added, tap **Add sets** on the exercise card to configure sets, reps, and load.
+
+<figure>
+  <img
+    src="/images/support-center/strength-and-conditioning/chiron-strength-edit-structured-per-set-exercises.png"
+    alt="Editing a structured set in Chiron showing load type options: weight, bodyweight, duration, and custom text"
+  />
+  <figcaption>Adjust sets, reps, and load — choose from weight, bodyweight, duration, or custom text</figcaption>
 </figure>
 
 ## Managing exercises

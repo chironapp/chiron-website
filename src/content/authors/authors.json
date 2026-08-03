@@ -1,0 +1,19 @@
+{
+  "clive": {
+    "name": "Clive Gross",
+    "role": "Founder",
+    "avatar": "/images/authors/clive.jpeg",
+    "bio": "Founder of Chiron. 2:27 marathoner."
+    
+  },
+  "michael": {
+    "name": "Michael McGowan",
+    "role": "Bush Turkey Track Club",
+    "avatar": "/images/authors/michaelm.jpeg",
+    "bio": "Competitive runner and member of Bush Turkey Track Club.",
+    "socials": {
+        "instagram": "https://www.instagram.com/ratattack1/",
+        "strava": "https://www.strava.com/athletes/38980900"
+    }
+  }
+}

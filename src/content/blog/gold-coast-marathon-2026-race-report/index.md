@@ -1,6 +1,6 @@
 ---
 title: "Gold Coast Marathon 2026 Race Report"
-pubDate: 2026-07-05
+pubDate: 2026-08-04
 author: michael
 tags: ["training-stories"]
 description: "Chasing an ambitious sub-2:45 at the 2026 Gold Coast Marathon with the Bush Turkey Track Club, Michael McGowan ran a 7-minute PB of 2:48:19 after a hard-fought fade in the final kilometres."

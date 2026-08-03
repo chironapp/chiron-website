@@ -8,4 +8,8 @@ export default defineConfig({
   // base: '/chiron-website/', // Removed for custom domain
   integrations: [tailwind(), sitemap()],
   output: "static",
+  server: { host: true },
+  vite: {
+    server: { allowedHosts: true },
+  },
 });

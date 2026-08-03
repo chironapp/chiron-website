@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import AuthorBioCard from '../components/AuthorBioCard.astro';
 
 export interface Props {
   title: string;
@@ -7,9 +8,19 @@ export interface Props {
   pubDate: Date;
   image?: string;
   tags?: string[];
+  author?: {
+    name: string;
+    role: string;
+    avatar: string;
+    bio: string;
+    socials?: {
+      instagram?: string;
+      strava?: string;
+    };
+  };
 }
 
-const { title, description, pubDate, image, tags } = Astro.props;
+const { title, description, pubDate, image, tags, author } = Astro.props;
 
 const formattedDate = pubDate.toLocaleDateString('en-US', {
   year: 'numeric',
@@ -29,6 +40,20 @@ const formattedDate = pubDate.toLocaleDateString('en-US', {
         />
       )}
       <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{title}</h1>
+      {author && (
+        <div class="flex items-center gap-3 mb-4">
+          <img
+            src={author.avatar}
+            alt={`${author.name} profile image`}
+            class="w-12 h-12 rounded-full object-cover"
+            loading="lazy"
+          />
+          <div>
+            <p class="text-sm font-semibold text-gray-900">{author.name}</p>
+            <p class="text-sm text-gray-600">{author.role}</p>
+          </div>
+        </div>
+      )}
       <div class="flex flex-wrap items-center gap-4 text-sm text-gray-600">
         <time datetime={pubDate.toISOString()}>
           {formattedDate}
@@ -44,8 +69,18 @@ const formattedDate = pubDate.toLocaleDateString('en-US', {
         )}
       </div>
     </header>
-    <div class="prose prose-lg prose-primary max-w-none">
+    <div class="post-content prose prose-lg prose-primary max-w-none">
       <slot />
     </div>
+    {author && <AuthorBioCard author={author} />}
   </article>
 </BaseLayout>
+
+<style is:global>
+  .post-content img {
+    max-height: 70vh;
+    width: auto;
+    margin-inline: auto;
+    display: block;
+  }
+</style>

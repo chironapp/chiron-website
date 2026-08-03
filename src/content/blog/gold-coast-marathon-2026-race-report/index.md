@@ -7,7 +7,7 @@ description: "Chasing an ambitious sub-2:45 at the 2026 Gold Coast Marathon with
 image: "./og-image-gold-coast-marathon-michael-avi-dan-oli.png"
 ---
 
-*Michael McGowan on his way to a 2:48:19 at the 2026 Gold Coast Marathon — a PB of around seven minutes.*
+*On his way to a 2:48:19 at the 2026 Gold Coast Marathon — a PB of around seven minutes.*
 
 ## The build-up
 
@@ -21,13 +21,13 @@ As with any big race for an intermediate runner, it starts months before the act
 
 ## Race morning
 
-Training, taper and carb load completed, I wake up nice and early Sunday morning ready to launch into a lovely 42.2 with a great group of friends. The [Bush Turkey Track Club](https://www.instagram.com/bush_turkey_track_club/) has a number of great runners and people on the start line for the full marathon, as well as plenty of supporters that ran in the half marathon a day earlier. With a warm-up of a few hundred metres completed, we take our place as close as possible to the front of the A group. Taking on the challenge of a 2:45 marathon would be Dan S, [Avi S](https://www.instagram.com/avisingh97/), [Oli J](https://www.instagram.com/locallegendsinrunning/) and I. Avi and Oli gave up their priority starts so we could all start together as a group and try and achieve our goal.
+Training, taper and carb load completed, I wake up nice and early Sunday morning ready to launch into a lovely 42.2 with a great group of friends. The [Bush Turkey Track Club](https://www.instagram.com/bush_turkey_track_club/) has a number of great runners and people on the start line for the full marathon, as well as plenty of supporters that ran in the half marathon a day earlier. With a warm-up of a few hundred metres completed, we take our place as close as possible to the front of the A group. Taking on the challenge of a 2:45 marathon would be Dan Storey, [Avishek Singh](https://www.instagram.com/avisingh97/), [Oli Jones](https://www.instagram.com/locallegendsinrunning/) and I. Avi and Oli gave up their priority starts so we could all start together as a group and try and achieve our goal.
 
 ![The 2:45 crew ready to head to the start line: Michael, Avi and Dan, with Avi giving up his priority start so the group could run together.](./gold-coast-marathon-start-line-michae-avi-dan.jpg)
 
 *The 2:45 crew ready to head to the start line: Michael, Avi and Dan, with Avi giving up his priority start so the group could run together.*
 
-## Settling in — 0 to 18km
+## Settling in — 0 to 30km
 
 The first few kilometres are a blur of dodging, weaving, overtaking and trying to keep together through a sea of people. We eventually settle into a really nice groove around the 4 kilometre mark and form a group of about 10 people aiming for 2:45. Great running and great chats follow for the next hour or so. Staying consistently between 3:50min/km and 3:54min/km, everything is going well. For me personally, I was having some trouble getting down the amount of carbs I was aiming for, being on the lower end of my ideal carbs per hour.
 
@@ -41,7 +41,7 @@ The pack is still intact when we get to the 18km turnaround point; spirits are s
 
 From 30-35km I'm still hanging onto running 2:45-something, and keeping some hope alive for sub-2:45 by trying to keep hanging in, although instead of running 3:53min/km I'm drifting out to 3:58-3:59min/km.
 
-![Michael at 32km cheered on by supporters](./gold-coast-marathon-michael-at-34km.jpg)
+![Michael at 32km cheered on by supporters](./gold-coast-marathon-michael-at-32km.jpg)
 
 *Michael at 32km, cheered on by supporters.*
 
@@ -51,14 +51,16 @@ There is some fantastic support from my teammates around the 32km mark as I go p
 
 *Official result certificate: 2:48:19 at the 2026 Gold Coast Marathon.*
 
-> it's hard not to be a little bit disappointed in not achieving a goal, even if it is an ambitious goal
+To be honest, it was a great relief to be finished with the race, and it was a great PB of about 7 minutes, but it's hard not to be a little bit disappointed in not achieving a goal, even if it is an ambitious goal. 
 
-To be honest, it was a great relief to be finished with the race, and it was a great PB of about 7 minutes, but it's hard not to be a little bit disappointed in not achieving a goal, even if it is an ambitious goal. Spending time with some great Bush Turkey friends straight after and again later on in the night was a great way to wrap up a very enjoyable race weekend.
+> It's hard not to be a little bit disappointed in not achieving a goal, even if it is an ambitious goal
+
+Spending time with some great Bush Turkey friends straight after and again later on in the night was a great way to wrap up a very enjoyable race weekend.
 
 ## What I'd do differently
 
-Some reflections on some shortcomings in the training block that may have led to a performance below expectations, and some areas I'm looking to improve on, having just signed up for the [Melbourne Marathon](https://melbournemarathon.com.au/). Due to time constraints, a pregnant wife, and a toddler, my strength training was one of the things on the chopping block. While spare time is tight, there are always opportunities to focus on something as important as leg strength. Particularly given how gradual the fade was during the marathon, and hamstrings cramping, it's hard to argue a better strength program would not have helped.
+Some reflections on shortcomings in the training block that may have led to a performance below expectations, and areas I'm looking to improve on, having just signed up for the [Melbourne Marathon](https://melbournemarathon.com.au/). Due to time constraints, a pregnant wife, and a toddler, my strength training was one of the things on the chopping block. While spare time is tight, there are always opportunities to focus on something as important as leg strength. Particularly given how gradual the fade was during the marathon, and hamstrings cramping, it's hard to argue a better strength program would not have helped.
 
-> one thing I did not practice enough was consuming enough gel and water at goal marathon pace
+> One thing I did not practice enough was consuming enough gel and water at goal marathon pace
 
 The only other real point that stands out upon reflection is the struggle with fuelling. I knew how many grams of carbs I wanted to consume, and a brand of gel that worked well; one thing I did not practice enough was consuming enough gel and water at goal marathon pace. For me there is a big difference in the average speed of my previous marathon PB, about 4:08min/km, and my ambitious goal for this marathon, 3:52min/km. Looking back on the training and marathon workouts I know I didn't practice getting enough gel down at or slightly faster than marathon pace; that, along with also not realising I hadn't taken on enough water until it was too late, would have also contributed to the eventual marathon bonk. In my lead-up to a target time of 2:44 for the Melbourne Marathon I'll be working on targeting these small skills that will hopefully pay dividends.

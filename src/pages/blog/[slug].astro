@@ -1,6 +1,6 @@
 ---
 import BlogLayout from '../../layouts/BlogLayout.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection('blog');
@@ -12,6 +12,7 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+const authorEntry = await getEntry(entry.data.author);
 
 // Handle co-located images
 let imageUrl = entry.data.image;
@@ -25,6 +26,7 @@ if (typeof entry.data.image === 'object' && entry.data.image?.src) {
   description={entry.data.description}
   pubDate={entry.data.pubDate}
   image={imageUrl}
+  author={authorEntry?.data}
   tags={entry.data.tags}
 >
   <Content />

@@ -3,6 +3,7 @@ title: "Chiron Is Now Live on TestFlight"
 pubDate: 2026-02-17
 tags: ["updates", "ios", "testflight"]
 description: "Chiron is now available on TestFlight, marking a major milestone as we prepare for private beta testing in the coming weeks."
+image: "./testflight-128x128.png"
 ---
 
 After months of building and refining Chiron, I’m excited to share:

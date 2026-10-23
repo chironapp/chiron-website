@@ -66,8 +66,6 @@ On the live results, tap **Publish Results** and confirm. Chiron uploads the res
 
 Results appear on the event's public page straight away.
 
-> **DNS and some DNF/DQ marks aren't published yet.** A runner marked DNS during timing — or DNF/DQ before any finish time was recorded — isn't uploaded when you publish. Until this is fixed, mark those runners after publishing: open the event's **Results**, select the runners, and choose **Mark as DNS** or **Mark as DNF**.
-
 ### 6. Finalise
 
 Published results stay editable while the status is **Preliminary Results**. Check them in the event's **Results**, make any corrections, then tap **Mark as final**. The status becomes **Final Results**, results are locked, and any series standings are updated.

@@ -74,7 +74,7 @@ export const supportAudiences: SupportAudience[] = [
   },
   {
     id: 'clubs',
-    label: "I'm a club",
+    label: 'I organise races',
     intro: 'Start lists, race-day timing and published results for club races.',
     groups: [
       {

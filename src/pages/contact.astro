@@ -1,38 +1,66 @@
 ---
 import MailchimpSignup from '../components/MailchimpSignup.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { INSTAGRAM_URL, REPORT_PROBLEM_URL } from '../config/site';
+
+const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout
   title="Contact Chiron"
-  description="Stay informed about the Chiron app release and receive tips, resources and stories to help you with your running journey."
+  description="Get help with Chiron, report a problem, request a free Coach Preview access code, or talk to us about timing your club's races."
 >
   <section class="py-20">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-8 text-center">
-        Be First to Train with Chiron
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 text-center">
+        Get in touch
       </h1>
-      
       <p class="text-xl text-gray-600 mb-12 text-center">
-        Be among the first athletes and coaches to try Chiron — the intelligent training platform designed to help you plan smarter, optimise training, and perform on race day.
+        Chiron is built by a small team, so messages come straight to the people building it.
       </p>
 
-      <!-- Mailchimp Signup -->
-      <div class="mb-12">
+      <div class="space-y-8">
+        <div class="bg-white rounded-lg shadow-md p-8">
+          <h2 class="text-2xl font-bold text-gray-900 mb-3">Help and problems</h2>
+          <p class="text-gray-600 mb-6">
+            Something not working, or not sure how to do something? Check the Support Center first, or send us a report and we'll get back to you.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href={REPORT_PROBLEM_URL} class="inline-block text-center bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors">Report a problem</a>
+            <a href={`${base}support-center/`} class="inline-block text-center border border-primary-600 text-primary-600 px-6 py-3 rounded-lg font-semibold hover:bg-primary-50 transition-colors">Support Center</a>
+          </div>
+        </div>
+
+        <div id="coaches" class="bg-white rounded-lg shadow-md p-8 border-l-4 border-primary-600 scroll-mt-24">
+          <h2 class="text-2xl font-bold text-gray-900 mb-3">Coaches: request a Coach Preview code</h2>
+          <p class="text-gray-600 mb-4">
+            Coach features are in a limited preview while we work with a small number of coaches. We're looking for feedback from Australian running coaches, and invited coaches get a Coach Preview access code free of charge.
+          </p>
+          <p class="text-gray-600 mb-6">
+            Send us a message with a little about how you coach: roughly how many athletes, what events they train for, and what you use to plan their training today.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href={REPORT_PROBLEM_URL} class="inline-block text-center bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors">Send a message</a>
+            <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" class="inline-block text-center border border-primary-600 text-primary-600 px-6 py-3 rounded-lg font-semibold hover:bg-primary-50 transition-colors">DM @chiron.endurance</a>
+          </div>
+          <p class="text-sm text-gray-500 mt-4">
+            Codes are not sold and can't be purchased. They exist only to limit how many coaches join during the preview.
+            <a href={`${base}support-center/becoming-a-coach/`} class="text-primary-600 hover:underline">How Coach Preview works</a>
+          </p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-8">
+          <h2 class="text-2xl font-bold text-gray-900 mb-3">Clubs and race organisers</h2>
+          <p class="text-gray-600 mb-6">
+            Interested in using Chiron for start lists, timing and results at your club's races? Tell us about your events.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href={REPORT_PROBLEM_URL} class="inline-block text-center bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors">Send a message</a>
+            <a href={`${base}race-organisers/`} class="inline-block text-center border border-primary-600 text-primary-600 px-6 py-3 rounded-lg font-semibold hover:bg-primary-50 transition-colors">Race timing with Chiron</a>
+          </div>
+        </div>
+
         <MailchimpSignup />
-      </div>
-
-      <p class="text-xl text-gray-900 mb-12 text-center">
-        Beta testing opens soon.
-      </p>
-
-      <!-- Hero image -->
-      <div class="max-w-2xl mx-auto">
-        <img 
-          src="/images/female-runner-feet-5184-3456-1-scaled.jpg"
-          alt="Female runner's feet on track"
-          class="w-full rounded-lg shadow-lg"
-        />
       </div>
     </div>
   </section>

@@ -1,4 +1,6 @@
 ---
+import { CALCULATOR_URL } from '../config/site';
+
 const base = import.meta.env.BASE_URL;
 
 const navLinks = [
@@ -6,9 +8,13 @@ const navLinks = [
   { href: `${base}about/`, label: 'About' },
   { href: `${base}blog/`, label: 'Blog' },
   { href: `${base}training/`, label: 'Training' },
-  { href: 'https://calculator.chironapp.com/', label: 'Running Calculator', external: true },
+  { href: CALCULATOR_URL, label: 'Running Calculator', external: true },
+  { href: `${base}support-center/`, label: 'Support' },
   { href: `${base}contact/`, label: 'Contact' },
 ];
+
+const downloadHref = `${base}download/`;
+const downloadActive = Astro.url.pathname.startsWith(downloadHref);
 
 const currentPath = Astro.url.pathname;
 ---
@@ -19,7 +25,7 @@ const currentPath = Astro.url.pathname;
       <div class="flex-shrink-0">
         <a href={base} class="text-4xl font-logo text-primary-600">Chiron</a>
       </div>
-      <div class="hidden md:block">
+      <div class="hidden lg:block">
         <div class="ml-10 flex items-baseline space-x-4">
           {navLinks.map((link) => {
             const isHome = link.href === base;
@@ -41,9 +47,18 @@ const currentPath = Astro.url.pathname;
               </a>
             );
           })}
+          <a
+            href={downloadHref}
+            class:list={[
+              'ml-2 px-4 py-2 rounded-md text-sm font-semibold transition-colors',
+              downloadActive ? 'bg-primary-800 text-white' : 'bg-primary-600 text-white hover:bg-primary-700',
+            ]}
+          >
+            Get the app
+          </a>
         </div>
       </div>
-      <div class="md:hidden">
+      <div class="lg:hidden">
         <button
           type="button"
           id="mobile-menu-button"
@@ -57,7 +72,7 @@ const currentPath = Astro.url.pathname;
         </button>
       </div>
     </div>
-    <div id="mobile-menu" class="hidden md:hidden pb-4">
+    <div id="mobile-menu" class="hidden lg:hidden pb-4">
       <div class="flex flex-col space-y-2">
         {navLinks.map((link) => {
           const isHome = link.href === base;
@@ -79,6 +94,12 @@ const currentPath = Astro.url.pathname;
             </a>
           );
         })}
+        <a
+          href={downloadHref}
+          class="px-3 py-2 rounded-md text-base font-semibold bg-primary-600 text-white hover:bg-primary-700 text-center"
+        >
+          Get the app
+        </a>
       </div>
     </div>
   </nav>

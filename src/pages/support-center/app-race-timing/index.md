@@ -50,21 +50,27 @@ If you need to start again — a false start, or a practice run — tap **Restar
 
 When the last runner is in, tap **Finish Race**. The race is marked **Completed** and the live results open. If you finished too early, tap **Undo Finish** and carry on timing — nothing you recorded is lost.
 
-<!-- TODO screenshot: /images/support-center/club-racing/chiron-race-timing-screen.png
 <figure>
   <img
-    src="/images/support-center/club-racing/chiron-race-timing-screen.png"
+    src="/images/screenshots/chiron-ios-race-timing.webp"
     alt="The Race Timing screen in Chiron showing the race clock and a grid of runner timer buttons"
   />
   <figcaption>Tap each runner's button as they finish</figcaption>
 </figure>
--->
 
 ### 5. Publish results
 
 On the live results, tap **Publish Results** and confirm. Chiron uploads the results, works out overall, sex-category and age-category positions, and sets the event to **Preliminary Results**. Unidentified finishers are added to the start list as "unknown" so you can rename them later.
 
 Results appear on the event's public page straight away.
+
+<figure class="wide">
+  <img
+    src="/images/screenshots/chiron-web-race-results.webp"
+    alt="Published Bush Turkey Relay results on the event's public page, with individual and team tabs and search by race number or name"
+  />
+  <figcaption>Published results on the event's public page, with individual and team results runners can search by name or race number</figcaption>
+</figure>
 
 ### 6. Finalise
 
@@ -84,4 +90,4 @@ Several timekeepers can time the same race at once, each on their own device —
 
 Multiple timekeepers can publish results, but **if two timekeepers have both recorded the same participant, the last one to publish overwrites all previously published results** for that participant. Agree beforehand who records which runners.
 
-**Known limitation: each timekeeper starts their own clock.** Every device records its own start time when its timekeeper taps **Start Race**, and that device's finish times are measured from it. The start time saved with the published results is the one from the last device to publish. To keep times consistent, all timekeepers should tap **Start Race** together, at the gun.
+**Each timekeeper starts their own clock!** Every device records its own start time when its timekeeper taps **Start Race**, and that device's finish times are measured from it. The start time saved with the published results is the one from the last device to publish. To keep times consistent, all timekeepers should tap **Start Race** together, at the gun.

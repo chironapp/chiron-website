@@ -24,15 +24,22 @@ You become the club's first administrator.
 
 The **Public contact** is an email address or a web link. Entrants see it as a "Contact organiser" link on your event registration pages.
 
-<!-- TODO screenshot: /images/support-center/club-racing/chiron-create-club-form.png
-<figure>
+## Your club's page
+
+Open **More → Clubs** and choose your club to see its page. From here you can:
+
+- open **Events** and **Series** to manage your race events and race series
+- check the **Club information**: description, website and contact details
+- see and manage the club's **Administrators**
+- tap **Edit** to change the club's details, or open the menu for more options
+
+<figure class="wide">
   <img
-    src="/images/support-center/club-racing/chiron-create-club-form.png"
-    alt="The Create Club form in Chiron with the Club Name, Description, Website and Public contact fields"
+    src="/images/screenshots/chiron-web-club-detail.webp"
+    alt="A club's page in the Chiron web app showing Events, Series, Club information and Administrators"
   />
-  <figcaption>Create a club from More → Clubs</figcaption>
+  <figcaption>A club's page, with its events, series, details and administrators</figcaption>
 </figure>
--->
 
 ## Edit a club
 

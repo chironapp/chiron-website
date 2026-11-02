@@ -18,6 +18,31 @@ const base = import.meta.env.BASE_URL;
         Stress-free race timing and results for clubs and race organisers. Focus on your event while Chiron handles the timing.
       </p>
 
+      <!-- In action -->
+      <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6">From finish line to results</h2>
+        <div class="grid md:grid-cols-[auto_1fr] gap-8 items-start">
+          <figure class="text-center">
+            <img
+              src="/images/screenshots/chiron-ios-race-timing.webp"
+              alt="Race timing in the Chiron app, with the race clock and a timer button for each runner"
+              width="600" height="1301" loading="lazy"
+              class="w-48 md:w-52 h-auto mx-auto rounded-2xl shadow-xl ring-1 ring-gray-200"
+            />
+            <figcaption class="text-sm text-gray-500 mt-3 max-w-[13rem] mx-auto">Time on your phone. Tap each runner as they finish. Works offline.</figcaption>
+          </figure>
+          <figure class="text-center">
+            <img
+              src="/images/screenshots/chiron-web-race-results.webp"
+              alt="Published Bush Turkey Relay results on the web, with individual and team results searchable by name or race number"
+              width="1278" height="1007" loading="lazy"
+              class="w-full h-auto rounded-xl shadow-xl ring-1 ring-gray-200"
+            />
+            <figcaption class="text-sm text-gray-500 mt-3">Publish, and results go live on a public page runners can search by name or race number.</figcaption>
+          </figure>
+        </div>
+      </div>
+
       <!-- Event Services -->
       <div class="bg-white rounded-lg shadow-md p-8 mb-8">
         <h2 class="text-2xl font-bold text-gray-900 mb-6">Event Services</h2>
@@ -104,6 +129,19 @@ const base = import.meta.env.BASE_URL;
             </svg>
             <span><strong>Australian Gift Racing:</strong> Traditional gift format with back-marks and professional timing integration.</span>
           </li>
+        </ul>
+      </div>
+
+      <!-- Guides -->
+      <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Club racing guides</h2>
+        <ul class="grid md:grid-cols-2 gap-x-8 gap-y-3">
+          <li><a href={`${base}support-center/create-and-manage-a-club/`} class="text-primary-600 hover:underline font-medium">Create and manage a club</a></li>
+          <li><a href={`${base}support-center/create-and-manage-a-race-event/`} class="text-primary-600 hover:underline font-medium">Create and manage a race event</a></li>
+          <li><a href={`${base}support-center/import-bulk-entries/`} class="text-primary-600 hover:underline font-medium">Import bulk entries</a></li>
+          <li><a href={`${base}support-center/race-event-public-registration-form/`} class="text-primary-600 hover:underline font-medium">Public registration form</a></li>
+          <li><a href={`${base}support-center/app-race-timing/`} class="text-primary-600 hover:underline font-medium">App race timing</a></li>
+          <li><a href={`${base}support-center/create-and-manage-a-race-series/`} class="text-primary-600 hover:underline font-medium">Create and manage a race series</a></li>
         </ul>
       </div>
 

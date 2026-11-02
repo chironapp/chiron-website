@@ -1,0 +1,56 @@
+---
+import AppDownloadButtons from '../components/AppDownloadButtons.astro';
+import MailchimpSignup from '../components/MailchimpSignup.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { APP_STORE_URL, WEB_APP_URL } from '../config/site';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout
+  title="Get the Chiron app"
+  description="Download Chiron for iPhone from the App Store or use the Chiron web app in your browser. Android is coming soon."
+>
+  <section class="py-20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 text-center">Get Chiron</h1>
+      <p class="text-xl text-gray-600 mb-10 text-center">
+        One account across every device. Sign in on your iPhone or your browser and your schedule stays in sync.
+      </p>
+
+      <div class="mb-14">
+        <AppDownloadButtons tone="dark" showAndroid={false} />
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-2">iPhone</h2>
+          <p class="text-gray-600 mb-4">The full Chiron experience for athletes and coaches on the move, available now on the App Store.</p>
+          <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" class="text-primary-600 font-medium hover:text-primary-700">Download on the App Store →</a>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-2">Web app</h2>
+          <p class="text-gray-600 mb-4">Use Chiron on a laptop or desktop. Coaches plan and analyse athletes training at scale with ease.</p>
+          <a href={WEB_APP_URL} target="_blank" rel="noopener noreferrer" class="text-primary-600 font-medium hover:text-primary-700">Open beta.chironapp.com →</a>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-2">Android</h2>
+          <p class="text-gray-600 mb-4">Coming soon. Until then, Android users can use the web app in their mobile browser.</p>
+          <a href="#android" class="text-primary-600 font-medium hover:text-primary-700">Get notified →</a>
+        </div>
+      </div>
+
+      <div class="mt-14 bg-white rounded-lg shadow-md p-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">New to Chiron?</h2>
+        <p class="text-gray-600 mb-4">
+          Our getting started guide walks through creating your account, connecting Strava and setting up your first race.
+        </p>
+        <a href={`${base}support-center/getting-started/`} class="inline-block bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors">Getting started guide</a>
+      </div>
+
+      <div id="android" class="mt-14">
+        <MailchimpSignup />
+      </div>
+    </div>
+  </section>
+</BaseLayout>

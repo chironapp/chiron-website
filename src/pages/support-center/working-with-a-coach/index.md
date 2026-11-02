@@ -21,6 +21,14 @@ You'll get an email and, if notifications are on, a push notification when a coa
 2. Under **Pending Invitations**, open the invitation.
 3. Read what accepting allows, then tap **Accept Invitation**. To say no, tap **Decline Invitation**.
 
+<figure class="phone">
+  <img
+    src="/images/screenshots/chiron-ios-coach-invitation-framed.webp"
+    alt="A pending coaching invitation in Chiron showing the coach's profile, what they'll be able to see, and Accept and Decline buttons"
+  />
+  <figcaption>Before you accept, Chiron tells you what your coach will be able to see and do</figcaption>
+</figure>
+
 If you haven't signed up yet, create your account with the email address your coach invited. The invitation will be waiting for you when you verify your email, and you'll be offered it during onboarding.
 
 ## What your coach can see and do

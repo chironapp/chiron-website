@@ -19,6 +19,14 @@ related:
 
 Chiron shows a result for each address, so you can see which invitations were sent and which failed, and why.
 
+<figure class="phone">
+  <img
+    src="/images/screenshots/chiron-ios-invite-athletes-framed.webp"
+    alt="The Invite athletes to coach dialog in Chiron with an email address entered and a confirmation that the invitation was sent"
+  />
+  <figcaption>Each address shows whether its invitation was sent</figcaption>
+</figure>
+
 ## What the athlete receives
 
 - **Athletes who already use Chiron** get an email and a push notification. They accept from **More › My Performance Team** in the app.

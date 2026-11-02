@@ -16,7 +16,7 @@ related:
 3. Check your inbox for the reset link. If it's not there after a few minutes, check your spam folder.
 4. Open the link and enter your new password twice.
 
-Reset links expire. If the link says it's invalid, request a new one from **Forgot Password?** <!-- CONFIRM: reset link lifetime -->
+Reset links expire. If the link says it's invalid, request a new one from **Forgot Password?**
 
 ## Change your password while signed in
 

@@ -24,7 +24,7 @@ Nobody else can see them. A pending invitation doesn't give access. You can edit
 ## Comment on a workout
 
 1. Open the workout.
-2. Open the comments. On iPhone this opens the comments screen; on the desktop web app it opens over the workout. <!-- CONFIRM: exact control label for opening workout comments -->
+2. Open the comments. On iPhone this opens the comments screen; on the desktop web app it opens over the workout.
 3. Write your comment and send it.
 
 ## Comment on a note

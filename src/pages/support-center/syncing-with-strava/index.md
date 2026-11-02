@@ -48,7 +48,7 @@ If your Strava authorisation expires, Chiron shows **Reconnect Strava**. Tap it 
 
 ## Disconnect Strava
 
-Go to **More › Settings › Connected Apps › Strava** and disconnect. New activities stop syncing. Training already in Chiron stays on your schedule. <!-- CONFIRM: imported activities are retained after disconnect -->
+Go to **More › Settings › Connected Apps › Strava** and disconnect. New activities stop syncing. Training already in Chiron stays on your schedule.
 
 ## Several activities from one session
 

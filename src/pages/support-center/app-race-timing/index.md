@@ -64,6 +64,14 @@ On the live results, tap **Publish Results** and confirm. Chiron uploads the res
 
 Results appear on the event's public page straight away.
 
+<figure class="wide">
+  <img
+    src="/images/screenshots/chiron-web-race-results.webp"
+    alt="Published Bush Turkey Relay results on the event's public page, with individual and team tabs and search by race number or name"
+  />
+  <figcaption>Published results on the event's public page, with individual and team results runners can search by name or race number</figcaption>
+</figure>
+
 ### 6. Finalise
 
 Published results stay editable while the status is **Preliminary Results**. Check them in the event's **Results**, make any corrections, then tap **Mark as final**. The status becomes **Final Results**, results are locked, and any series standings are updated.

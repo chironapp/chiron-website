@@ -21,7 +21,7 @@ You'll be offered this during onboarding. To connect later:
 3. Tap connect and sign in to Strava. Approve the permissions Chiron asks for.
 4. You're returned to Chiron, and the Strava screen shows your connection status.
 
-On your first sync, Chiron imports up to four years of your Strava history. <!-- CONFIRM: initial import window; update if reduced for launch -->
+On your first sync, Chiron imports up to three years of your Strava history. Note the activity summary data usually arrives within fifteen minutes but the pace, heart rate data, fastest efforts, may take several hours on first sync, depending on Strava's rate limits. 
 
 ## How new activities sync
 

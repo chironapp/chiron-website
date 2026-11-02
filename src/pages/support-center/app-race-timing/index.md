@@ -90,4 +90,4 @@ Several timekeepers can time the same race at once, each on their own device —
 
 Multiple timekeepers can publish results, but **if two timekeepers have both recorded the same participant, the last one to publish overwrites all previously published results** for that participant. Agree beforehand who records which runners.
 
-**Known limitation: each timekeeper starts their own clock.** Every device records its own start time when its timekeeper taps **Start Race**, and that device's finish times are measured from it. The start time saved with the published results is the one from the last device to publish. To keep times consistent, all timekeepers should tap **Start Race** together, at the gun.
+**Each timekeeper starts their own clock!** Every device records its own start time when its timekeeper taps **Start Race**, and that device's finish times are measured from it. The start time saved with the published results is the one from the last device to publish. To keep times consistent, all timekeepers should tap **Start Race** together, at the gun.

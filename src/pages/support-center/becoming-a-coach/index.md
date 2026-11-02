@@ -1,7 +1,7 @@
 ---
 layout: ../../../layouts/SupportArticleLayout.astro
 title: "Becoming a Coach in Chiron"
-description: "How Coach Preview works and how to get a free access code."
+description: "How Coach Preview works and how to get an access code."
 category: Coaches
 tags: [coach, coach preview, access code]
 related:

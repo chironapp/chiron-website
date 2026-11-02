@@ -8,6 +8,10 @@ export default defineConfig({
   // base: '/chiron-website/', // Removed for custom domain
   integrations: [tailwind(), sitemap()],
   output: "static",
+  redirects: {
+    // TestFlight beta guide retired at App Store launch
+    "/support-center/beta-guide": "/support-center/getting-started/",
+  },
   server: { host: true },
   vite: {
     server: { allowedHosts: true },

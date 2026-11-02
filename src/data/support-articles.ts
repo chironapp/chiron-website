@@ -45,7 +45,6 @@ const a = {
   password: { slug: 'resetting-your-password', title: 'Resetting Your Password', description: 'Forgotten your password, or want to change it' },
   deleteAccount: { slug: 'deleting-your-account', title: 'Deleting Your Account', description: 'Permanently delete your Chiron account and data' },
   report: { href: '/support-center/contact/', title: 'Report a Problem', description: 'Tell us about a bug, ask a question or share feedback' },
-  betaGuide: { slug: 'beta-guide', title: 'TestFlight Beta Guide', description: 'For beta testers using the Chiron Beta app through Apple TestFlight' },
 } satisfies Record<string, SupportLink>;
 
 export const supportAudiences: SupportAudience[] = [
@@ -102,7 +101,7 @@ export const supportAudiences: SupportAudience[] = [
     intro: 'Sign-in, account management and getting help.',
     groups: [
       { title: 'Your account', links: [a.password, a.deleteAccount] },
-      { title: 'Help', links: [a.report, a.betaGuide] },
+      { title: 'Help', links: [a.report] },
     ],
   },
 ];

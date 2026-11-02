@@ -9,7 +9,7 @@ related:
   - planning-a-workout
 ---
 
-Notes sit on your schedule next to your workouts and events. Use them for anything that isn't a workout: how you slept, a niggle you're watching, travel days, a change to your plan, or a message to your coach.
+Notes sit on your schedule next to your workouts and events. Use them for anything that isn't a workout: how you slept, a niggle you're watching, travel days, a change to your plan, or information for your coach.
 
 ## Create a note
 

@@ -35,7 +35,7 @@ Onboarding then walks you through a few quick steps:
 
 1. **About you** — your name and a few profile details.
 2. **Profile photo** — optional, but it helps your coach or athletes recognise you.
-3. **Connect Strava** — Chiron automatically imports new activities and up to four years of training history on first sync. You can skip this and connect later. See [Syncing Your Training with Strava](/support-center/syncing-with-strava/). <!-- CONFIRM: initial import window is 4 years (STRAVA_INITIAL_IMPORT_DAYS=1460); update if reduced to 1-2 years for launch -->
+3. **Connect Strava** — Chiron automatically imports new activities and up to three years of training history on first sync. You can skip this and connect later. See [Syncing Your Training with Strava](/support-center/syncing-with-strava/).
 4. **Next event** — optionally add the race you're training for, with its name and date.
 
 If a coach has already invited you, you'll also be offered their invitation during onboarding. Accepting is optional. See [Working with a Coach](/support-center/working-with-a-coach/).

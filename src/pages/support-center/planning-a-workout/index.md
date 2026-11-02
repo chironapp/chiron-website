@@ -10,6 +10,8 @@ related:
   - completing-a-workout
 ---
 
+A workout in Chiron can be **planned**, **completed**, or **missed**. The schedule shows what you planned against what you actually did.
+
 ## Add a workout to your schedule
 
 1. Open the **Schedule** tab.

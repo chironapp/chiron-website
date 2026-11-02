@@ -1,7 +1,7 @@
 ---
 layout: ../../../layouts/SupportArticleLayout.astro
 title: "Completing a Workout"
-description: "How planned workouts are completed by Strava, and how to mark one complete yourself."
+description: "How planned workouts are completed by synced Strava activities, and how to mark one complete yourself."
 category: Completed Training
 tags: [workout, completed, strava, planned]
 related:
@@ -10,7 +10,7 @@ related:
   - planning-a-workout
 ---
 
-A workout in Chiron can be **planned**, **completed**, or both. The schedule shows what you planned against what you actually did.
+A workout in Chiron can be **planned**, **completed**, or **missed**. The schedule shows what you planned against what you actually did.
 
 <figure class="phone">
   <img
@@ -30,7 +30,7 @@ When a new activity syncs from Strava, Chiron looks for a planned workout that:
 
 If it finds one, the activity completes that planned workout. Your planned duration and distance stay on the workout alongside what you actually did. If there's no matching planned workout, Chiron adds the activity as a new completed workout.
 
-**Tip:** if you have two planned runs on one day, the first activity to sync completes one of them and the next completes the other. If they end up the wrong way round, or a planned workout doesn't get matched, you can fix it by editing the workouts.
+**Tip:** if you have two planned runs on one day, the first activity to sync completes one of them and the next completes the other. If they end up the wrong way round, or a planned workout doesn't get matched, you can fix it by [unmerging and merging workouts](/support-center/merging-workouts/).
 
 ## Marking a workout complete yourself
 

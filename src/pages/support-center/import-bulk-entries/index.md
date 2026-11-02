@@ -19,15 +19,13 @@ If your entrants are already in a spreadsheet — from your own entry form, anot
 4. Check the preview. Chiron shows how many entries it found and any warnings.
 5. Tap **Save _N_ Entries** to add them to the start list.
 
-<!-- TODO screenshot: /images/support-center/club-racing/chiron-paste-bulk-entries.png
-<figure>
+<figure class="wide">
   <img
-    src="/images/support-center/club-racing/chiron-paste-bulk-entries.png"
-    alt="The Paste Bulk Entries screen in Chiron showing pasted spreadsheet data and a preview of the entries to save"
+    src="/images/screenshots/chiron-web-paste-bulk-entries.webp"
+    alt="The Paste Bulk screen in Chiron with spreadsheet data pasted in and a preview of the entries to save"
   />
   <figcaption>Paste your spreadsheet, check the preview, then save</figcaption>
 </figure>
--->
 
 ## Prepare your spreadsheet
 
@@ -55,6 +53,14 @@ Headers aren't case-sensitive. Columns Chiron doesn't recognise are ignored, and
 | Jo | Patel | | |
 
 Add Sex, Year of Birth or Email columns in the same way when you have them.
+
+<figure class="wide">
+  <img
+    src="/images/screenshots/sheets-start-list-example.webp"
+    alt="A start list in Google Sheets with First Name, Last Name, Sex, Month of Birth, Year of Birth, Email and Team Name columns"
+  />
+  <figcaption>A start list in Google Sheets, ready to copy. The header row names each column.</figcaption>
+</figure>
 
 ## What happens when you save
 

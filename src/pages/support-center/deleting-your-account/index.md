@@ -15,7 +15,15 @@ You can delete your Chiron account at any time from the app. **Deletion is perma
 
 1. Go to **More › Settings › Account Settings**.
 2. Tap **Delete Account**.
-3. Type **delete** to confirm, then confirm the deletion.
+3. Type **delete** in the confirmation box, then tap **Delete Account**.
+
+<figure class="phone">
+  <img
+    src="/images/screenshots/chiron-ios-delete-account-framed.webp"
+    alt="The Delete Account screen in Chiron warning that deletion is permanent, with a box to type delete to confirm"
+  />
+  <figcaption>Type "delete" to confirm, then tap Delete Account</figcaption>
+</figure>
 
 ## What's deleted
 

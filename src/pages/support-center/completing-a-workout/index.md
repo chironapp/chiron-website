@@ -12,6 +12,14 @@ related:
 
 A workout in Chiron can be **planned**, **completed**, or both. The schedule shows what you planned against what you actually did.
 
+<figure class="phone">
+  <img
+    src="/images/screenshots/chiron-ios-schedule-planned-completed-missed-framed.webp"
+    alt="The Chiron schedule on iPhone showing completed workouts in green, a missed strength session in red and an upcoming planned run in grey"
+  />
+  <figcaption>Completed workouts in green, missed in red, and upcoming planned workouts in grey</figcaption>
+</figure>
+
 ## Automatically, from Strava
 
 When a new activity syncs from Strava, Chiron looks for a planned workout that:

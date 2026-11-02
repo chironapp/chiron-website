@@ -23,6 +23,14 @@ related:
 
 The workout appears on your schedule as a planned workout.
 
+<figure class="phone">
+  <img
+    src="/images/screenshots/chiron-ios-schedule-planned-completed-missed-framed.webp"
+    alt="The Chiron schedule on iPhone showing completed workouts in green, a missed strength session in red and an upcoming planned run in grey"
+  />
+  <figcaption>Planned workouts show in grey until they're completed</figcaption>
+</figure>
+
 ## Planning a workout you'll repeat
 
 To schedule the same workout on several days or weeks, set **Recurrence** above the date field before you save. See [Repeating a Workout](/support-center/repeating-a-workout/).

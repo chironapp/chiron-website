@@ -15,8 +15,18 @@ If you record one session as several activities, such as a warm-up, a track sess
 
 1. Open one of the workouts.
 2. Tap the **⋮** menu and choose **Merge/Unmerge**.
-3. Chiron lists the other workouts of the same activity type on the same day. Select the ones to merge.
-4. Confirm. You'll see **Workout merged successfully!**
+3. Chiron lists that day's **Planned Workouts** and **Completed Activities** of the same activity type. Select the ones to merge.
+4. Tap **Merge**. You'll see **Workout merged successfully!**
+
+For example, if you recorded your warm-up separately from the main session, merge the warm-up activity into the session's planned workout. Your schedule then shows one workout for the session instead of several, which keeps it simple to read and compare against the plan.
+
+<figure class="phone">
+  <img
+    src="/images/screenshots/chiron-ios-merge-workouts-framed.webp"
+    alt="The Merge Workouts screen in Chiron listing a planned track session and the separately recorded warm-up and workout activities from that morning"
+  />
+  <figcaption>A planned session with its warm-up and main set recorded as separate activities, ready to merge</figcaption>
+</figure>
 
 Only workouts of the same activity type on the same date can be merged. If there are none, Chiron says there are no workouts to merge on that date.
 

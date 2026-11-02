@@ -136,18 +136,32 @@ const processedRecentPosts = recentPosts.map(post => {
 
     <!-- Clubs -->
     <section id="clubs" class="py-20 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
+        <div>
           <p class="text-sm font-semibold uppercase tracking-wide text-primary-600 mb-2">For clubs</p>
           <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Club racing, simplified
           </h2>
-          <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p class="text-lg text-gray-600 mb-6">
             Running a club race? Chiron handles start lists, race-day timing on your own phone or laptop, and instant published results your participants can find straight after the race.
           </p>
-          <a href={`${base}race-organisers/`} class="inline-block mt-4 text-primary-600 font-medium hover:text-primary-700">
+          <a href={`${base}race-organisers/`} class="text-primary-600 font-medium hover:text-primary-700">
             Learn more →
           </a>
+        </div>
+        <div class="relative pb-10 pr-6 sm:pr-10">
+          <img
+            src="/images/screenshots/chiron-web-race-results.webp"
+            alt="Published Bush Turkey Relay results on the web, with individual and team results searchable by name or race number"
+            width="1278" height="1007" loading="lazy"
+            class="w-full h-auto rounded-xl shadow-xl ring-1 ring-gray-200"
+          />
+          <img
+            src="/images/screenshots/chiron-ios-race-timing.webp"
+            alt="Race timing in the Chiron app, with the race clock and a timer button for each runner"
+            width="600" height="1301" loading="lazy"
+            class="absolute bottom-0 right-0 w-28 sm:w-36 lg:w-40 h-auto rounded-2xl shadow-2xl ring-1 ring-gray-200"
+          />
         </div>
       </div>
     </section>

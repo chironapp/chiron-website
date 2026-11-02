@@ -50,15 +50,13 @@ If you need to start again — a false start, or a practice run — tap **Restar
 
 When the last runner is in, tap **Finish Race**. The race is marked **Completed** and the live results open. If you finished too early, tap **Undo Finish** and carry on timing — nothing you recorded is lost.
 
-<!-- TODO screenshot: /images/support-center/club-racing/chiron-race-timing-screen.png
 <figure>
   <img
-    src="/images/support-center/club-racing/chiron-race-timing-screen.png"
+    src="/images/screenshots/chiron-ios-race-timing.webp"
     alt="The Race Timing screen in Chiron showing the race clock and a grid of runner timer buttons"
   />
   <figcaption>Tap each runner's button as they finish</figcaption>
 </figure>
--->
 
 ### 5. Publish results
 

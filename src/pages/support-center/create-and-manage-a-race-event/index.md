@@ -31,15 +31,21 @@ New events start with the status **Paused**. Change the status as your event mov
 
 Every event has a public page at `events.chironapp.com/events/{event id}` showing its start list and, once published, its results. You'll find the link on the event screen under **Public Results**.
 
-<!-- TODO screenshot: /images/support-center/club-racing/chiron-create-race-event-form.png
-<figure>
+<figure class="phone">
   <img
-    src="/images/support-center/club-racing/chiron-create-race-event-form.png"
-    alt="The New Event form in Chiron showing the event title, start date, sport type, status, race type and registration fields"
+    src="/images/screenshots/chiron-ios-race-event-details-framed.webp"
+    alt="A race event screen in Chiron with the Race Timing button, event details, and links to the public registration form and results page"
   />
-  <figcaption>Create a race event from your club's Events screen</figcaption>
+  <figcaption>The event screen: start Race Timing, check the event details, and copy the registration and results links</figcaption>
 </figure>
--->
+
+<figure class="phone">
+  <img
+    src="/images/screenshots/chiron-ios-race-event-form-framed.webp"
+    alt="The race event form in Chiron showing race type, registration, series and participant data options"
+  />
+  <figcaption>Race type, registration, series and participant data on the event form</figcaption>
+</figure>
 
 ### Edit, duplicate or delete an event
 

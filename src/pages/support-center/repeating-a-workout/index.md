@@ -21,7 +21,7 @@ All three use the same scheduler.
 ## Repeat an existing workout
 
 1. Open the workout on your schedule.
-2. Tap the menu and choose **Repeat**.
+2. Tap the **⋮** menu and choose **Repeat**.
 3. Adjust any details on the **Repeat Workout** screen.
 4. Set the recurrence (see below) and save.
 
@@ -39,6 +39,14 @@ When repeating, choose:
 3. **Repeat for** — **2 weeks**, **4 weeks** (the default) or **8 weeks**, or set an **End date** for a custom range.
 
 Chiron shows a summary of how many workouts will be created before you confirm, so you can check it before saving.
+
+<figure class="phone">
+  <img
+    src="/images/screenshots/chiron-ios-workout-recurrence-framed.webp"
+    alt="The recurrence sheet in Chiron with Repeating selected, Monday chosen, Repeat for 4 weeks and a summary of 4 workouts"
+  />
+  <figcaption>Repeating every Monday for 4 weeks, with the summary of workouts to be created</figcaption>
+</figure>
 
 ## Things to know
 

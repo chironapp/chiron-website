@@ -71,9 +71,9 @@ Open the event menu and choose **Race Result** to enter your official result:
 
 Official results feed your Personal Bests. See [Personal Bests and Best Performances](/support-center/personal-bests/).
 
-<figure>
+<figure class="phone">
   <img
-    src="/images/screenshots/chiron-ios-race-event.webp"
+    src="/images/screenshots/chiron-ios-race-event-framed.webp"
     alt="A completed race event in Chiron showing the official result, goals ticked off and attachments"
   />
   <figcaption>A completed race with its official result, goals achieved and attachments</figcaption>

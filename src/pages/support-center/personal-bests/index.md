@@ -14,6 +14,14 @@ related:
 
 Open the **Insights** tab. The **Personal Bests** widget shows your PB and best performances over time for a chosen distance.
 
+<figure>
+  <img
+    src="/images/screenshots/chiron-ios-personal-bests.webp"
+    alt="The Personal Bests widget in Chiron Insights showing a 5km PB, fastest GPS effort and a chart of best efforts over time"
+  />
+  <figcaption>Personal Bests on the Insights tab, showing 5km</figcaption>
+</figure>
+
 ## Official results and GPS efforts
 
 Chiron uses two kinds of performance:

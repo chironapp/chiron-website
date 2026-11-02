@@ -48,7 +48,7 @@ Keep course maps, race instructions or your pacing plan with the event.
 1. Open the event and go to **Attachments**.
 2. Tap **Upload an attachment** and choose a file.
 
-Each file in an event needs a unique name. If a file with the same name already exists, rename it first. <!-- CONFIRM: supported file types and size limit -->
+Each file in an event needs a unique name. If a file with the same name already exists, rename it first. Files have a **maximum size limit of 5 MB**.
 
 ## Link your race workout
 

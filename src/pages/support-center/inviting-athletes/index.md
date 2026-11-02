@@ -44,4 +44,4 @@ Open the pending invitation and choose **Cancel invitation**. If the person sign
 
 ## Limits
 
-To prevent spam, there's a daily limit on how many invitations you can send, and a short wait before you can re-invite the same address. If you hit a limit, the result for that address explains why. <!-- CONFIRM: actual daily limit and cooldown values if you want to state them -->
+To prevent spam, there's a daily limit on how many invitations you can send, and a short wait before you can re-invite the same address. If you hit a limit, the result for that address explains why. 

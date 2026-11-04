@@ -1,29 +1,47 @@
 # Privacy Policy
 
-Version: v1.0  
-Effective Date: 30 November 2025  
-Last Updated: 30 November 2025
+Version: v2.0  
+Effective Date: 4 November 2026  
+Last Updated: 4 November 2026
 
-## Commitment to Privacy
+## About This Policy
 
-Privacy is very important to us. We are required to comply with the Federal Privacy Act 1988 and the Australian Privacy Principles, and therefore our privacy policy applies to any personal information we collect, use or disclose, including the personal information of our employees and contractors.
+This policy explains how Typhon Solutions Pty Ltd (ACN 616 648 965) ("Chiron", "we", "us") handles personal information in the Chiron app, websites and related services (the "Service"). We comply with the *Privacy Act 1988* (Cth) and the Australian Privacy Principles. The Service is only for people aged 18 or over.
 
-## How and Why We Collect Personal Information
+## What We Collect
 
-We collect personal information in order to provide various services to our clients. With consent, we may also use personal information for related purposes including providing clients with updates on our products and services.
+- **Account and profile information** you provide, such as name, email, sex, date of birth and location.
+- **Training and activity data** you create, upload or connect, including GPS location, heart rate and other sensor data, and metrics we calculate from it. Heart rate data may be health information; you consent to us collecting it by recording or connecting activities.
+- **Data from services you connect**, such as Strava and Garmin Connect, under the permissions you grant.
+- **Usage and technical data**, including app analytics, session recordings, crash reports and device information. Our websites use Google Analytics cookies.
 
-## How We Use and Disclose Personal Information
+## How We Use It
 
-We do not use or disclose personal information for any purpose that is unrelated to the services we provide and that you would not reasonably expect (except with client consent). We have a duty to maintain the confidentiality of our clients' affairs, including personal information. Our duty of confidentiality to our clients applies, except where disclosure of personal information is consented to by the client or is compelled by law.
+We use personal information to provide and improve the Service: displaying and analysing your training, matching activities to planned workouts, sending planned workouts to connected devices, sharing your data with coaches you approve, publishing results of public events you enter, communicating with you, and keeping the Service secure. We may create aggregated and de-identified statistics that cannot identify you.
 
-Client personal information may be disclosed to approved third parties who are also required to comply with the Australian Privacy Principles.
+We do not sell personal information or use it for advertising.
 
-## Security of Your Personal Information
+## Who Can See It
 
-We endeavour to protect any personal information that we hold from misuse and/or loss, and to protect it from unauthorised access, modification and/or disclosure.
+- **Coaches you approve** can view your training and activity data. You can remove a coach at any time.
+- **Race organisers** using Chiron Event Services may publish start lists and results, which can include your name, sex, year of birth, category and results. This is managed by the race organiser, who is responsible for their own privacy obligations to entrants; requests to change or remove published results should go to them first.
+- **Service providers** that host and operate the Service on our behalf. Account and training data, including data from Strava and Garmin, is stored and processed by Supabase (Sydney, Australia) and Google Cloud. Other providers handle analytics, error monitoring, notifications, email and forms, and do not receive activity data. Some providers are located in the United States and European Union. We require them to protect personal information to a standard consistent with this policy.
+- Others where required by law.
 
-## Contact Us
+## Garmin Connect
 
-If you want to gain access to your personal information, correct or update your personal details, register a complaint about a breach of your privacy, or you have any other query relating to our privacy policy, please contact us.
+If you connect Garmin Connect, we use your Garmin data only to provide the Service to you and coaches you approve. Garmin data is not sold or shared with third parties for their own use.
 
-You can reach us through our [contact page](https://www.chironapp.com/contact/) or by visiting our website at [www.chironapp.com](https://www.chironapp.com/).
+## Security and Retention
+
+We take reasonable steps to protect personal information, including encryption in transit and at rest. We keep your data while your account is active. When you delete your account, your data is deleted, except copies held for a limited period in backups, or where needed to comply with the law, resolve disputes or enforce our Terms of Use. We will notify you and the OAIC of any eligible data breach.
+
+## Your Choices
+
+You can access and correct your data in the app, disconnect connected services or coaches, delete your account in the app, and withdraw consent by deleting data or your account. You can also ask us for a copy of the information we hold about you.
+
+## Complaints and Contact
+
+For questions, requests or complaints, contact support@chironapp.com or use our [contact page](https://www.chironapp.com/contact/). We will review your complaint and respond in writing, usually within 30 days. If you are not satisfied with our response, you can contact the Office of the Australian Information Commissioner at [www.oaic.gov.au](https://www.oaic.gov.au).
+
+We may update this policy and will notify you of material changes.

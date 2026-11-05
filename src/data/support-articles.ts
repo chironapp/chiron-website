@@ -27,6 +27,7 @@ const a = {
   repeatWorkout: { slug: 'repeating-a-workout', title: 'Repeating a Workout', description: 'Schedule a workout once, or repeat it on chosen days for several weeks' },
   library: { slug: 'creating-your-workout-library', title: 'Creating Your Workout Library', description: 'Build a reusable library of workouts you can schedule at any time' },
   scheduleFromLibrary: { slug: 'scheduling-from-workout-library', title: 'Scheduling Workouts from the Workout Library', description: "Schedule a library workout to your own or an athlete's calendar" },
+  labels: { slug: 'schedule-labels', title: 'Labelling Your Schedule', description: 'Mark holidays, travel, injuries, training blocks and race weeks across a range of days' },
   notes: { slug: 'creating-notes', title: 'Creating Notes', description: 'Log how you felt, niggles, travel or anything else alongside your training' },
   race: { slug: 'planning-for-a-race', title: 'Planning for a Race', description: 'Add a race to your schedule, set goals, build a checklist and upload attachments' },
   importResults: { slug: 'how-to-import-race-results-bulk-paste-spreadsheet', title: 'Importing Race Results in Bulk', description: 'Paste your race history from Google Sheets, Excel or Numbers in minutes' },
@@ -54,7 +55,7 @@ export const supportAudiences: SupportAudience[] = [
     intro: 'Plan your training, prepare for races and keep your training data in one place.',
     groups: [
       { title: 'Getting started', links: [a.gettingStarted, a.strava] },
-      { title: 'Planning your training', links: [a.planWorkout, a.repeatWorkout, a.library, a.scheduleFromLibrary, a.notes] },
+      { title: 'Planning your training', links: [a.planWorkout, a.repeatWorkout, a.library, a.scheduleFromLibrary, a.notes, a.labels] },
       { title: 'Races and results', links: [a.race, a.importResults, a.pbs] },
       { title: 'Completed training', links: [a.complete, a.merge] },
       { title: 'Strength & conditioning', links: [a.strength, a.recordStrength] },
@@ -67,8 +68,8 @@ export const supportAudiences: SupportAudience[] = [
     intro: 'Set up your coach account, build your roster and plan training for your athletes.',
     groups: [
       { title: 'Getting set up', links: [a.becomeCoach, a.invite, a.roster] },
-      { title: 'Planning training', links: [a.planAthlete, a.library, a.scheduleFromLibrary] },
-      { title: 'Communicating with athletes', links: [a.comments] },
+      { title: 'Planning training', links: [a.planAthlete, a.library, a.scheduleFromLibrary, a.labels] },
+      { title: 'Communicating with athletes', links: [a.comments, { slug: 'schedule-labels', title: 'Labelling Your Athletes Schedule', description: a.labels.description }] },
     ],
   },
   {

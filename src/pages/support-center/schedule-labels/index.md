@@ -10,9 +10,9 @@ related:
   - planning-for-a-race
 ---
 
-A label is a coloured bar across one or more days on your schedule. Use it for anything that lasts longer than a day: a holiday or work trip, an injury or illness, a training camp, a taper, or a race week. Everyone looking at the schedule sees the period at a glance, without a note repeated on every day.
+A label is a coloured bar across one or more days on your schedule. Use it for a holiday or work trip, an injury or illness, a training camp, a taper, or a race week — anything you want to stand out at a glance, whether it's a single day or a longer stretch, without a note repeated on every day.
 
-Notes are still the place for a thought about a single day. Labels are for a period of time. See [Creating Notes](/support-center/creating-notes/).
+Notes are still the place for a thought tied to what happened on one specific day. Labels are for marking a period — even a single day — so it's visible across the whole schedule. See [Creating Notes](/support-center/creating-notes/).
 
 ## Create a label
 

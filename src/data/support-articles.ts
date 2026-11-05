@@ -69,7 +69,7 @@ export const supportAudiences: SupportAudience[] = [
     groups: [
       { title: 'Getting set up', links: [a.becomeCoach, a.invite, a.roster] },
       { title: 'Planning training', links: [a.planAthlete, a.library, a.scheduleFromLibrary, a.labels] },
-      { title: 'Communicating with athletes', links: [a.comments] },
+      { title: 'Communicating with athletes', links: [a.comments, { slug: 'schedule-labels', title: 'Labelling Your Athletes Schedule', description: a.labels.description }] },
     ],
   },
   {

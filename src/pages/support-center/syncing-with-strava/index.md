@@ -1,9 +1,9 @@
 ---
 layout: ../../../layouts/SupportArticleLayout.astro
 title: "Syncing Your Training with Strava"
-description: "Connect Strava, sync new activities automatically and import your training history."
+description: "Connect Strava, sync new activities automatically, import your training history and avoid duplicate activities."
 category: Getting Started
-tags: [strava, sync, import]
+tags: [strava, sync, import, duplicates]
 related:
   - completing-a-workout
   - merging-workouts
@@ -49,6 +49,22 @@ If your Strava authorisation expires, Chiron shows **Reconnect Strava**. Tap it 
 ## Disconnect Strava
 
 Go to **More › Settings › Connected Apps › Strava** and disconnect. New activities stop syncing. Training already in Chiron stays on your schedule.
+
+## The same activity from more than one source
+
+If one session reaches Chiron twice, for example Strava syncs your run and you also upload the FIT file from your watch, or you recorded the session on two devices, Chiron keeps one workout and discards the copy. Your schedule doesn't show the session twice.
+
+Chiron treats an activity as the same session when it's the same activity type and both its start time and its moving time are within two minutes of an activity already on your schedule. When a copy is discarded:
+
+- the workout already on your schedule stays exactly as it was
+- no second workout is created, and no planned workout is completed by the copy
+- the copy's file isn't kept, and the same activity won't be imported again later
+
+If you upload a FIT file for a session that's already on your schedule, Chiron tells you **This activity is already in your schedule** before you save, and won't import it. If you change the start time on the import screen, Chiron checks again when you save. [CONFIRM: where the FIT file import is opened from, e.g. **Schedule › + › Import**, and whether it's live in the production app]
+
+> **[SCREENSHOT: FIT file import screen showing "This activity is already in your schedule. Choose a different file to import." for a run already synced from Strava — iOS]**
+
+Sessions on the same day that start at different times, such as runs either side of a shoe change, aren't treated as copies. Each arrives as its own workout, and you can still merge them.
 
 ## Several activities from one session
 

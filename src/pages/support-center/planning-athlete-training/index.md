@@ -8,6 +8,7 @@ related:
   - scheduling-from-workout-library
   - creating-your-workout-library
   - workout-and-note-comments
+  - personal-bests
 ---
 
 ## Switch to an athlete's schedule
@@ -76,4 +77,18 @@ Open any of the athlete's workouts to see what they completed against what was p
   <figcaption>An athlete's training summary in Insights: completed, planned and missed sessions each week</figcaption>
 </figure>
 
-Some actions stay with the athlete: coaches can't merge an athlete's workouts, start or finish their strength workouts, or change the sets they've logged. Their Personal Bests are read-only to you.
+## Record race results for an athlete
+
+You can record and correct an athlete's race results, and link their race workout to the event, the same way they can. Results are saved to the athlete's account and count towards their Personal Bests.
+
+- **From Insights:** tap **Manage** on the Personal Bests widget and choose **Add result** for a distance, or select one of the athlete's GPS efforts and choose **Add race result**.
+- **From a completed run:** open the athlete's workout, tap the menu and choose **Add race result**. For other completed workouts, choose **Link to Event**.
+- **From an event:** open the athlete's event and use **Link workout** to choose one of their completed workouts from that day.
+
+See [Personal Bests and Best Performances](/support-center/personal-bests/) and [Planning for a Race](/support-center/planning-for-a-race/).
+
+> **[SCREENSHOT: Add race result overlay opened by a coach from an athlete's completed run — iOS]**
+
+This works only for athletes who have accepted you as their coach. **Import results** stays with the athlete.
+
+Some actions stay with the athlete: coaches can't merge an athlete's workouts, start or finish their strength workouts, or change the sets they've logged.

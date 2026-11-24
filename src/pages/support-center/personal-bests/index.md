@@ -8,6 +8,7 @@ related:
   - planning-for-a-race
   - how-to-import-race-results-bulk-paste-spreadsheet
   - syncing-with-strava
+  - planning-athlete-training
 ---
 
 ## Where to find your personal bests
@@ -54,4 +55,11 @@ If a GPS effort was actually a race, select it in the widget and choose to add a
 
 ## Coaches
 
-Coaches can view an athlete's Personal Bests and Official PBs, but can't add or change results.
+When you're viewing an athlete who has accepted you as their coach, you can record race results for them:
+
+- On **Official Personal Bests**, tap **Add result** for a distance, just as the athlete can.
+- In the Personal Bests widget, select one of the athlete's GPS efforts and choose **Add race result**.
+
+The result is saved to the athlete's account and appears in their own Personal Bests. **Import results** is only available to the athlete. See [Viewing and Planning an Athlete's Training](/support-center/planning-athlete-training/).
+
+> **[SCREENSHOT: Official Personal Bests list viewed as a coach for an athlete, showing Add result and no Import results — iOS]**

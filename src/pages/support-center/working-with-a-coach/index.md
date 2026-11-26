@@ -41,6 +41,8 @@ Once you accept, your coach can:
 
 Your coach can't merge your workouts, or start, finish or change the exercises you've logged in a strength workout.
 
+Your coach may plan further ahead than you can see. If they've turned on **Hide future training**, workouts and notes they've planned more than a few weeks out appear on your schedule as they get closer, a week at a time each Monday. If you try to move one of their workouts past that point, Chiron tells you your coach hasn't released training that far ahead. See [Hiding Future Training from Your Athletes](/support-center/hiding-future-training/).
+
 ## Talking to your coach
 
 Use comments on workouts and notes to discuss a session. See [Comments on Workouts and Notes](/support-center/workout-and-note-comments/).

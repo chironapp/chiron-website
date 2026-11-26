@@ -43,6 +43,7 @@ const a = {
   invite: { slug: 'inviting-athletes', title: 'Inviting Athletes', description: 'Invite athletes by email and track pending invitations' },
   roster: { slug: 'managing-your-athlete-roster', title: 'Managing Your Athlete Roster', description: 'View your athletes, pause coaching, remove an athlete and keep private notes' },
   planAthlete: { slug: 'planning-athlete-training', title: "Viewing and Planning an Athlete's Training", description: "Switch to an athlete's schedule and plan their workouts and races" },
+  hideFuture: { slug: 'hiding-future-training', title: 'Hiding Future Training from Your Athletes', description: 'Plan weeks or months ahead and release training to your athletes a few weeks at a time' },
   password: { slug: 'resetting-your-password', title: 'Resetting Your Password', description: 'Forgotten your password, or want to change it' },
   deleteAccount: { slug: 'deleting-your-account', title: 'Deleting Your Account', description: 'Permanently delete your Chiron account and data' },
   report: { href: '/support-center/contact/', title: 'Report a Problem', description: 'Tell us about a bug, ask a question or share feedback' },
@@ -68,7 +69,7 @@ export const supportAudiences: SupportAudience[] = [
     intro: 'Set up your coach account, build your roster and plan training for your athletes.',
     groups: [
       { title: 'Getting set up', links: [a.becomeCoach, a.invite, a.roster] },
-      { title: 'Planning training', links: [a.planAthlete, a.library, a.scheduleFromLibrary, a.labels] },
+      { title: 'Planning training', links: [a.planAthlete, a.hideFuture, a.library, a.scheduleFromLibrary, a.labels] },
       { title: 'Communicating with athletes', links: [a.comments, { slug: 'schedule-labels', title: 'Labelling Your Athletes Schedule', description: a.labels.description }] },
     ],
   },

@@ -14,6 +14,14 @@ related:
 
 You still see everything on your athletes' schedules.
 
+<figure style="max-width: 249px">
+  <img
+    src="/images/screenshots/chiron-web-hidden-workout-card.webp"
+    alt="A faded workout card on an athlete's schedule with a crossed-out eye showing that it's hidden from the athlete"
+  />
+  <figcaption>You see hidden training faded, with a crossed-out eye</figcaption>
+</figure>
+
 ## Turn on Hide future training
 
 1. Go to **More › Settings**.

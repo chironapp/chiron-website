@@ -20,9 +20,15 @@ You still see everything on your athletes' schedules.
 2. Under **Coach › Athlete schedule**, turn on **Hide future training**.
 3. In **Visible to athletes**, choose how far ahead your athletes can see: 1 to 6 weeks.
 
-The hint below the setting tells you the last day your athletes can currently see, for example "Athletes can see training you've planned up to Sunday 22 November 2026". It updates as soon as you change the setting.
+The hint below the setting tells you the last day your athletes can currently see, for example "Athletes can see training you've planned up to Sunday 13 December 2026". It updates as soon as you change the setting.
 
-> **[SCREENSHOT: Settings › Coach › Athlete schedule with Hide future training on, the Visible to athletes picker and the hint — iOS]**
+<figure class="phone">
+  <img
+    src="/images/screenshots/chiron-ios-hide-future-training-framed.webp"
+    alt="Chiron Settings on iPhone with Hide future training turned on, Visible to athletes set to 2 weeks and a hint showing the last day athletes can see"
+  />
+  <figcaption>Turn on Hide future training and choose how far ahead your athletes can see</figcaption>
+</figure>
 
 The setting applies to all your athletes. You can't set a different period for each athlete.
 
@@ -52,9 +58,13 @@ Workouts and notes created before Hide future training was available count as yo
 
 On an athlete's schedule, a hidden workout or note shows a crossed-out eye at the top right of its card, and the card is slightly faded. You see this in schedule search results too. Every coach of the athlete sees the same thing, including for items another coach created.
 
-> **[SCREENSHOT: An athlete's schedule as the coach sees it, with a faded hidden workout showing the crossed-out eye — desktop web]**
-
-> **[SCREENSHOT: A hidden workout card with the crossed-out eye on an athlete's schedule — iOS]**
+<figure class="wide">
+  <img
+    src="/images/screenshots/chiron-web-hidden-workouts.webp"
+    alt="An athlete's schedule in the Chiron desktop web app, where workouts from 14 December are faded and marked with a crossed-out eye"
+  />
+  <figcaption>Hidden workouts are faded and show a crossed-out eye</figcaption>
+</figure>
 
 You can edit, move and delete hidden workouts and notes as normal.
 

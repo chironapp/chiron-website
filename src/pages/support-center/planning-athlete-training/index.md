@@ -5,6 +5,7 @@ description: "Switch to an athlete's schedule and plan their workouts and races.
 category: Coaches
 tags: [coach, schedule, planning, athletes]
 related:
+  - hiding-future-training
   - scheduling-from-workout-library
   - creating-your-workout-library
   - workout-and-note-comments
@@ -40,6 +41,8 @@ While you're viewing an athlete, the **Schedule** and **Insights** tabs show tha
 ## Plan workouts for an athlete
 
 With the athlete selected, add workouts, events and notes exactly as you would for yourself. Tap **+** on the Schedule tab and choose **Workout**, **Event** or **Note**. See [Planning a Workout](/support-center/planning-a-workout/) and [Repeating a Workout](/support-center/repeating-a-workout/).
+
+Planning a long way ahead? Turn on **Hide future training** so your athletes only see the next few weeks. See [Hiding Future Training from Your Athletes](/support-center/hiding-future-training/).
 
 <figure class="phone">
   <img

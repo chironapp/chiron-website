@@ -4,7 +4,7 @@ pubDate: 2026-11-03
 author: clive
 tags: ["plyometrics", "strength", "marathon", "injury prevention", "masters running"]
 description: "Why plyometrics improve running economy, protect bone and keep your speed as you age — plus the four exercises I actually use, how much to do, and when to fit them in."
-image: "./plyometrics-drop-jump-featured.jpg"
+image: "./plyometrics-drop-jump-og.jpg"
 ---
 
 I'm staring down 40, and this year I've felt Father Time catching up with my body more than ever. Recovery takes a little longer. Niggles hang around a little more. The legs don't always snap the way they used to.
